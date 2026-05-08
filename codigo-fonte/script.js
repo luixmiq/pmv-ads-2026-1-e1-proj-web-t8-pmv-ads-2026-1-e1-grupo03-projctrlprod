@@ -33,7 +33,7 @@ document.getElementById('BtnLogin').addEventListener('click', function(event) {
         localStorage.setItem('usuarioCat', usuarioEncontrado.categoria);
         
         // Redireciona
-        window.location.href = "Principal/principal.html";
+        window.location.href = "./Principal/principal.html";
     } else {
         document.getElementById('username').value = "";
         document.getElementById('pwd').value = "";
