@@ -8,7 +8,7 @@ document.getElementById('BtnLogin').addEventListener('click', function(event) {
     let usuarios = JSON.parse(localStorage.getItem('usuarios'));
 
     // 2. SE não existir nada no localStorage, cria o admin padrão
-    if (usuarios) {
+    if (!usuarios) {
         usuarios = 
         [
             { "id": 1, "usuario": "eng", "senha": "eng", "categoria": "Administrador" }
