@@ -1,10 +1,10 @@
 # Cadastro e controle de produtos de usinagem
 
-`Analise e desenvolvimento de sistemas ADS`
+`Analise e desenvolvimento de sistemas - PUC Minas`
 
-`DISCIPLINA`
+`Desenvolvimento de aplicação web front-end`
 
-`SEMESTRE 01`
+`1° Semestre / 2026`
 
 Nosso sistema surge como uma solução tecnológica capaz de organizar e gerenciar ordens de serviço, cadastro de clientes, controle de peças e materiais sendo essencial para a garantia da qualidade, redução de custos e otimizar o tempo de produção.
 

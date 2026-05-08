@@ -1,0 +1,38 @@
+<div class="cadastro-wrapper">
+    <form class="cadastro-form">
+        <header>
+          <h2>➕ Novo Usuário</h2>
+          <p>Preencha os dados abaixo para cadastrar no sistema</p>
+        </header>
+
+        <div class="input-group">
+          <label>Nome ou Matrícula</label>
+          <input type="text" id="username" placeholder="Ex: 102030">
+        </div>
+
+        <div class="input-group">
+          <label for="usuarioCat">Categoria do Usuário</label>
+          <select id="usuarioCat" name="usuarioCat" class="custom-select">
+            <option value="" disabled selected>Selecione uma categoria...</option>
+            <option value="producao">🛠️ Manufatura</option>
+            <option value="administrador">🔑 Administrador</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label>Senha</label>
+          <input type="password" id="pwd1" placeholder="••••">
+        </div>
+
+        <div class="input-group">
+          <label>Confirmar Senha</label>
+          <input type="password" id="pwd2" placeholder="••••">
+        </div>
+
+        <button type="button" id="BtnCadastrar" onclick="CadastrarUsuario()">Cadastrar Usuário</button>
+
+        <footer class="form-footer">
+          <p>© 2026 UsinagensPro V1.0</p>
+        </footer>
+    </form>
+</div>

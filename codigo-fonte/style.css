@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Usa o azul marinho profundo do sidebar para o fundo */
+    background-color: #0f172a; 
+    /* Mesma fonte do dashboard */
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+}
+
+.login-form {
+    /* Branco limpo como os cards do dashboard */
+    background: #ffffff; 
+    padding: 2.5rem;
+    /* Cantos arredondados de 12px igual aos cards */
+    border-radius: 12px;
+    /* Shadow mais suave e moderno */
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    gap: 10px;
+}
+
+/* Títulos usando a cor Slate do dashboard */
+h2, h3 {
+    color: #0f172a;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 0.5rem;
+}
+
+label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    /* Cor de texto muted do dashboard */
+    color: #64748b;
+    margin-bottom: 4px;
+}
+
+input[type="text"], 
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #e2e8f0; /* Borda leve dos cards */
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: all 0.2s;
+    outline: none;
+    background-color: #f8fafc; /* Fundo leve do app */
+}
+
+input:focus {
+    /* Cor de destaque Indigo (var(--accent)) */
+    border-color: #6366f1;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1);
+}
+
+/* Botão principal usando a cor Indigo */
+#BtnLogin {
+    width: 100%;
+    padding: 12px;
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 10px;
+}
+
+#BtnLogin:hover {
+    background-color: #4f46e5;
+    transform: translateY(-1px);
+}
+
+/* Footer do login combinando com o estilo muted */
+.footer-copyright {
+    margin-top: 25px;
+    text-align: center;
+    border-top: 1px solid #f1f5f9;
+    padding-top: 20px;
+}
+
+.footer-copyright p {
+    font-size: 0.75rem;
+    color: #94a3b8; /* var(--text-muted) */
+    margin: 0;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela principal</title>
+    <link rel="stylesheet" href="principal.css">
+</head>
+<body class="main-body">
+    <!-- Barra Superior -->
+    <nav class="navbar">
+        <div class="logo">UsinagensPro V1.0</div>
+        <div class="user-info">
+            <span id="display-user">Usuário</span> | 
+            <span id="display-category" class="badge">Categoria</span>
+            <a href="index.html" class="btn-logout">➜]</a>
+        </div>
+    </nav>
+
+    <div class="app-container">
+        <!-- Árvore de Projetos (Lateral) -->
+        <aside class="sidebar">
+        <h3>Arvore do projeto</h3>
+        <ul class="project-tree">
+            <li class="folder" onclick="carregarTela('home_content')">
+                <span class="file_10"><span class="icon">🏠</span>Home</span>
+            </li>
+            <li class="folder" onclick="carregarTela('cadastrarUsuario_content')">
+                <span class="file_20"><span class="icon">👤</span>Cadastrar usuários</span>
+            </li>
+            <li class="folder" onclick="carregarTela('listaUsuarios_content')">
+                <span class="file_30"><span class="icon">👥</span>Gerenciar Usuários</span>
+            </li>
+        </ul>
+    </aside>
+
+        <!-- Área de Trabalho (Principal) -->
+        <main class="content">
+            
+        </main>
+    </div>
+    <script src="principal.js"></script>
+</body>
+</html>
