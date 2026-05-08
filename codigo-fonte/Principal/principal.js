@@ -14,7 +14,7 @@ window.onload = function() {
 function carregarTela(nomeDaTela) {
     const principal = document.querySelector('.content');
     
-    fetch(`./Content/${nomeDaTela}.html`)
+    fetch(`Content/${nomeDaTela}.html`)
         .then(response => {
             if (!response.ok) throw new Error('Página não encontrada');
             return response.text();
