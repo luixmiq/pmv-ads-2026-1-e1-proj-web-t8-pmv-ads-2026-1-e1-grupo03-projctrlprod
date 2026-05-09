@@ -69,9 +69,9 @@ function CadastrarUsuario()
     else 
     {
         // 1. Pega a lista de usuários já salvos ou cria uma vazia se for o primeiro
-        let listaUsuarios = JSON.parse(localStorage.getItem('usuarios')) ||  
+        let listaUsuarios = JSON.parse(localStorage.getItem('usuarios')) || 
         [
-            { "id": 1, "usuario": "eng", "senha": "eng", "categoria": "Administrador" }
+            { "id": 1, "usuario": "admin", "senha": "admin", "categoria": "Administrador" }
         ];
 
         // 2. Cria o novo objeto de usuário com ID incremental
@@ -109,6 +109,7 @@ function listarUsuarios() {
                 <td><span class="badge">${user.categoria}</span></td>
                 <td>
                     <button class="btn-excluir" onclick="excluirUsuario(${user.id})">Remover</button>
+                    <button class="btn-editar" onclick="abrirModalEditar(${user.id})">Editar</button>
                 </td>
             </tr>
         `;
@@ -117,11 +118,103 @@ function listarUsuarios() {
 }
 
 function excluirUsuario(id) {
-    if(confirm("Tem certeza que deseja remover este usuário?")) {
+
+    const UsuarioAtivo = localStorage.getItem('usuarioNome');
+    let UsuarioTabela;
+
+    //Recupera o nome do usuário pelo ID
+    const lista = JSON.parse(localStorage.getItem('usuarios')) || [];
+    const usuarioEncontrado = lista.find(user => Number(user.id) === Number(id));
+
+    if (usuarioEncontrado) {
+                
+         UsuarioTabela = usuarioEncontrado.usuario;
+    }
+
+    if (UsuarioTabela != UsuarioAtivo)
+    {
+        if(confirm("Tem certeza que deseja remover este usuário?")) {
+            let lista = JSON.parse(localStorage.getItem('usuarios')) || [];
+            // Filtra a lista removendo o ID selecionado
+            lista = lista.filter(u => u.id !== id);
+            localStorage.setItem('usuarios', JSON.stringify(lista));
+            listarUsuarios(); // Recarrega a tabela
+        }
+    }
+    else
+    {
+        alert("Você não pode excluir um usuário ativo, faça Logon com outro usuário !");
+    }
+
+}
+
+// 2. Ajuste na função de SALVAR
+function salvarAlteracoes() {
+    const id = localStorage.getItem('usuarioId');
+    const novoNome = document.getElementById('username').value;
+    const novaCategoria = document.getElementById('usuarioCat').value;
+    const novaSenha = document.getElementById('pwd1').value;
+    const novaSenha1 = document.getElementById('pwd2').value;
+
+    if (novaSenha === novaSenha1 && novoNome !== "") {
         let lista = JSON.parse(localStorage.getItem('usuarios')) || [];
-        // Filtra a lista removendo o ID selecionado
-        lista = lista.filter(u => u.id !== id);
+
+        lista = lista.map(user => {
+            if (Number(user.id) === Number(id)) {
+                // ATENÇÃO: Use 'usuario' e não 'nome' para bater com seu cadastro
+                return { ...user, usuario: novoNome, categoria: novaCategoria, senha: novaSenha };
+            }
+            return user;
+        });
+
         localStorage.setItem('usuarios', JSON.stringify(lista));
-        listarUsuarios(); // Recarrega a tabela
+        
+        document.getElementById('meuPopup').close(); // Fecha o modal
+        listarUsuarios(); // Atualiza a tabela
+        alert("Usuário atualizado com sucesso!");
+    } else {
+        alert("As senhas não coincidem ou o nome está vazio.");
     }
 }
+
+
+function abrirModalEditar(id) {
+
+    // Salva os dados do ID do usuário
+    localStorage.setItem('usuarioId', id);
+
+    const lista = JSON.parse(localStorage.getItem('usuarios')) || [];
+    const usuarioEncontrado = lista.find(user => Number(user.id) === Number(id));
+
+    if (usuarioEncontrado) {
+        const popup = document.getElementById('meuPopup');
+                
+        document.getElementById('user').innerText = usuarioEncontrado.usuario;
+        document.getElementById('username').value = usuarioEncontrado.usuario;
+        document.getElementById('usuarioCat').value = usuarioEncontrado.categoria;
+
+        popup.showModal();
+    }
+}
+
+// Fechar se clicar fora do modal
+document.addEventListener('click', (event) => {
+    const popup = document.getElementById('meuPopup');
+    
+    // Verifica se o alvo do clique é o próprio dialog (o fundo)
+    if (event.target === popup) {
+        const rect = popup.getBoundingClientRect();
+        
+        // Verifica se o clique foi fora da área do conteúdo (considerando as bordas)
+        const isInDialog = (
+            event.clientX >= rect.left &&
+            event.clientX <= rect.right &&
+            event.clientY >= rect.top &&
+            event.clientY <= rect.bottom
+        );
+
+        if (isInDialog === false) {
+            popup.close();
+        }
+    }
+});
