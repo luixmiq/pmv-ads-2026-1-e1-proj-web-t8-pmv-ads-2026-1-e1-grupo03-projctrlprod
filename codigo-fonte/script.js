@@ -11,7 +11,7 @@ document.getElementById('BtnLogin').addEventListener('click', function(event) {
     if (!usuarios) {
         usuarios = 
         [
-            { "id": 1, "usuario": "eng", "senha": "eng", "categoria": "Administrador" }
+            { "id": 1, "usuario": "admin", "senha": "admin", "categoria": "Administrador" }
         ];
         // Salva o admin padrão para que ele exista nas próximas consultas
         localStorage.setItem('usuarios', JSON.stringify(usuarios));
@@ -19,7 +19,7 @@ document.getElementById('BtnLogin').addEventListener('click', function(event) {
 
     // --- Caso esqueça a senha, basta utilizar o código abaixo ---
     // console.log("Digitado:", { usuario: usuarioDigitado, senha: senhaDigitada });
-    // console.log("Lista no LocalStorage:", usuarios);
+     console.log("Lista no LocalStorage:", usuarios);
 
     // 3. Agora procura o usuário na lista (seja na padrão ou na que você cadastrou)
     const usuarioEncontrado = usuarios.find(u => 

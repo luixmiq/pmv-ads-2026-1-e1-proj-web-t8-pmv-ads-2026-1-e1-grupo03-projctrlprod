@@ -1,5 +1,7 @@
 # Instruções de utilização
 
+A página possui segregação de acesso e por isso não permite o cadastro na tela de login. O cadastro é feito somente por administradores dentro da página. O primeiro acesso deve ser feito usando o nome e senha "admin".
+
 ## Estratégia de Organização de Codificação 
 
 Nesse primeiro eixo do curso, para simplificar a utilização do Git e a organização das pastas e artefatos de implementação no sistema de arquivos, sugerimos que o projeto seja estruturado de modo que cada aluno trabalhe com seus arquivos nas suas respectivas pastas, identificadas por nomes das suas respectivas telas. Por exemplo:
