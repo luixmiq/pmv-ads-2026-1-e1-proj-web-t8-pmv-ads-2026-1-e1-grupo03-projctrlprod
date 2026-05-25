@@ -15,10 +15,10 @@ RF-01: O sistema deve possibilitar o cadastro de novos colaboradores dos setores
 #### Artefatos da funcionalidade
 
 <ul>
-<tr><td>principal.html</td></tr>
-<tr><td>principal.css</td></tr>
-<tr><td>principal.js</td></tr>
-<tr><td>cadastrar_Usuario_content.html</td></tr>
+<li>principal.html</li>
+<li>principal.css</li>
+<li>principal.js</li>
+<li>cadastrarUsuario_content.html</li>
 </ul>
 
 #### Instruções de acesso
