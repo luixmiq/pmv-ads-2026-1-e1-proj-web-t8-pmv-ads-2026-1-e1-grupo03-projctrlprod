@@ -10,8 +10,10 @@ A tela de cadastro pode ser acessada na opção de menu "Cadastrar usuários"
 
 #### Requisito atendido
 
-RF-01: O sistema deve possibilitar o cadastro de novos colaboradores dos setores da produção e administração.
-RF-06: O sistema deve possibilitar segregação de acesso a páginas de acordo com os perfis de usuários.
+<ul>
+<li>RF-01: O sistema deve possibilitar o cadastro de novos colaboradores dos setores da produção e administração.</li>
+<li>RF-06: O sistema deve possibilitar segregação de acesso a páginas de acordo com os perfis de usuários.</li>
+</ul>
 
 #### Artefatos da funcionalidade
 
