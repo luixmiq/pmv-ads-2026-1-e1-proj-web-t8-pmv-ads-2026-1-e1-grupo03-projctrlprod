@@ -68,8 +68,8 @@
 
 |ID      | Descrição                                                                                                                           | Prioridade |
 |--------|-------------------------------------------------------------------------------------------------------------------------------------|------------|
-| RF-01  | O sistema deve permitir que um torneiro inicie, pause e conclua o tempo de produção de uma determinada peça.                        | Alta       | 
-| RF-02  | O sistema deve possibilitar o cadastro de novos colaboradores dos setores da produção e administração.                              | Alta       |
+| RF-01  | O sistema deve possibilitar o cadastro de novos colaboradores dos setores da produção e administração.                              | Alta       | 
+| RF-02  | O sistema deve permitir que um torneiro inicie, pause e conclua o tempo de produção de uma determinada peça.                        | Alta       |
 | RF-03  | O sistema deve possibilitar a administração programar uma fila de produção com base na sua categoria (crítica, alta, média, normal).| Alta       |
 | RF-04  | O sistema deve possibilitar a administração ver quais peças obtiveram lucro ou prejuízo durante sua produção.                       | Alta       |
 | RF-05  | O sistema deve possibilitar a identificação de qual máquina executou o trabalho (CNC, Torno).                                       | Alta       |
