@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 25/05/2026 14:33
+**Última atualização:** 25/05/2026 14:40
 
 ---
 
@@ -8,20 +8,20 @@
 
 | Aluno                 |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
 |-----------------------|-----------|-----------|-----------|------------|----------------|-----------------|
-| Luix_SD               |        39 |      1785 |       970 |         36 |             15 |               2 |
+| Luix_SD               |        43 |      1788 |       973 |         37 |             18 |               2 |
 | UAFAC                 |        23 |       164 |       111 |          9 |             23 |               3 |
 | clovisbd              |         1 |         5 |         0 |          1 |              0 |               0 |
-| github-actions[bot]   |        14 |       161 |        49 |          3 |             14 |               1 |
+| github-actions[bot]   |        15 |       165 |        53 |          3 |             15 |               1 |
 | github-classroom[bot] |         1 |       774 |         0 |         19 |              1 |               3 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-05-18**: Luix_SD: 5, github-actions[bot]: 5
+**2026-05-18**: Luix_SD: 7, github-actions[bot]: 6
 
-**2026-05-11**: github-actions[bot]: 1
+**2026-05-11**: Luix_SD: 1, github-actions[bot]: 1
 
-**2026-05-04**: Luix_SD: 27, clovisbd: 1, github-actions[bot]: 8
+**2026-05-04**: Luix_SD: 28, clovisbd: 1, github-actions[bot]: 8
 
 **2026-04-27**: Luix_SD: 4
 
