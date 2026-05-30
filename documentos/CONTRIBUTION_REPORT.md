@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 26/05/2026 18:11
+**Última atualização:** 30/05/2026 16:22
 
 ---
 
@@ -8,28 +8,31 @@
 
 | Aluno                 |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
 |-----------------------|-----------|-----------|-----------|------------|----------------|-----------------|
-| Luix_SD               |        42 |      1970 |      1127 |         37 |             15 |               2 |
+| Luix_SD               |        44 |      1971 |      1128 |         38 |             16 |               3 |
 | UAFAC                 |        23 |       164 |       111 |          9 |             23 |               3 |
 | clovisbd              |         1 |         5 |         0 |          1 |              0 |               0 |
-| github-actions[bot]   |        16 |       171 |        59 |          3 |             16 |               1 |
+| github-actions[bot]   |        17 |       181 |        69 |          3 |             17 |               1 |
 | github-classroom[bot] |         1 |       774 |         0 |         19 |              1 |               3 |
+| kaiqueGabriel-555     |         1 |        33 |        23 |          1 |              0 |               0 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-05-19**: Luix_SD: 9, github-actions[bot]: 7
+**2026-05-23**: Luix_SD: 11, github-actions[bot]: 8, kaiqueGabriel-555: 1
 
-**2026-05-12**: Luix_SD: 1, github-actions[bot]: 1
+**2026-05-16**: github-actions[bot]: 1
 
-**2026-05-05**: Luix_SD: 28, clovisbd: 1, github-actions[bot]: 8
+**2026-05-09**: Luix_SD: 1, github-actions[bot]: 1
 
-**2026-04-28**: Luix_SD: 4
+**2026-05-02**: Luix_SD: 28, clovisbd: 1, github-actions[bot]: 7
 
-**2026-04-07**: UAFAC: 18
+**2026-04-25**: Luix_SD: 4
 
-**2026-03-31**: UAFAC: 5
+**2026-04-11**: UAFAC: 17
 
-**2026-03-17**: github-classroom[bot]: 1
+**2026-04-04**: UAFAC: 6
+
+**2026-03-21**: github-classroom[bot]: 1
 
 
 
