@@ -1,29 +1,39 @@
 message: Please cite this software using these metadata.
-title:
+title: Sistema de Controle de Produção para Empresa de Usinagem
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Carvalho Ferreira
+    given-names: Gustavo Henrique
+
+  - family-names: Piza Silva
+    given-names: João Lucas
+
+  - family-names: Silva Paiva
+    given-names: Kaique Gabriel
+
+  - family-names: Sampaio
+    given-names: Kaique Silveira
+
+  - family-names: Lira Sa
+    given-names: Luiz Miguel
+
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Tavares
+    given-names: Clóvis Lemos
 keywords:
-  - 
-  - 
-repository-code: 
+  - usinagem
+  - usinagem-cnc
+  - torneamento
+  - fresamento
+  - manufatura
+  - industria
+  - metalurgia
+  - gestao-de-producao
+  - controle-de-estoque
+  - ordens-de-servico
+  - sistema-web
+  - gerenciamento-industrial
+   
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-grupo03-projctrlprod
 version: 1.0.0
-date-released: 2023-10-31
+date-released: 2026-06-07
