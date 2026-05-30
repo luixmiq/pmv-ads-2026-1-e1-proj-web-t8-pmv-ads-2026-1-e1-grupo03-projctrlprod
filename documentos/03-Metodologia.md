@@ -34,7 +34,7 @@ Luiz Miguel de Lira Sá (Foco na responsividade - RNF-03).
 
 A equipe utiliza o GitHub Projects para o acompanhamento do desenvolvimento do projeto. [Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe deve fazer uso do GitHub Project para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir depois das informações uma imagem do Kanban do projeto. Será importante apresentar o status do Kanban em todas as reuniões com o Professor regente.]
 
->- [Link para acessar nossa tabela de progresso](https://github.com/orgs/ICEI-PUC-Minas-PMV-SI/projects/402/views/1/)
+>- [Quadro Kanban do Projeto](https://github.com/orgs/ICEI-PUC-Minas-PMV-SI/projects/402/views/1/)
 
 - Backlog: Esta coluna representa o Product Backlog e recebe as Tarefas do Projeto a serem trabalhadas. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
 - To Do: Esta coluna representa o Sprint Backlog, ou seja, a lista das Tarefas da Etapa. As tarefas do To Do devem ser definidas e distribuídas para os integrantes da equipe no início de cada Etapa.
