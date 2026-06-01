@@ -16,11 +16,13 @@
 
 ## Justificativa
 
-  De acordo com os dados levantados pela iniciativa “Brasil mais produtivo”, as empresas que aderiram ao programa e aplicaram seus métodos de digitalização e controle de gestão obtiveram em média um aumento de 27% na produtividade. Além disso, segundo a CNI, cerca de 48% dos investimentos empresariais de 2026 focarão na melhoria do processo produtivo. 
+  De acordo com os dados levantados pela iniciativa “Brasil mais produtivo”, as empresas que aderiram ao programa e aplicaram seus métodos de digitalização e controle de gestão obtiveram em média um aumento de 27% na produtividade. Além disso, segundo a CNI, cerca de 48% dos investimentos empresariais de 2026 focarão na melhoria do processo produtivo.
+  
   Sendo assim, diante do cenário econômico atual enfrentado pelas pequenas empresas industriais do Brasil, percebemos que a digitalização e a melhoria da gestão do processo produtivo se mostram como um desenvolvimento necessário para o setor, que o nosso software visa providenciar.
 
 
 ## Público-alvo
 
   O público-alvo do sistema é composto principalmente por empresas de pequeno porte do setor de usinagem, que geralmente possuem entre 1 e 8 colaboradores. Nesse contexto, o software foi desenvolvido para proporcionar maior controle das atividades produtivas, facilitar o acompanhamento dos processos e fornecer informações mais precisas para a tomada de decisões.
+  
   Espera-se que a solução seja utilizada diariamente tanto pelos torneiros mecânicos responsáveis pela fabricação das peças quanto pelos gestores encarregados da supervisão da produção. Dessa forma, o sistema contribuirá para o monitoramento das operações, o aumento da eficiência produtiva e o aprimoramento do controle de qualidade.
