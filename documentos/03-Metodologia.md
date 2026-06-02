@@ -50,14 +50,23 @@ Responsável pelo gerenciamento e priorização dos requisitos do sistema, garan
 </ul>
 
 <h3>Equipe de Design:</h3>
-<h4>João Lucas Piza Silva (Foco na interface do Torneiro - Simplicidade).</h4>
-<h4>Kaique Gabriel da Silva Paiva (Foco no painel do Administrador).</h4>
-<h4>Luiz Miguel de Lira Sá (Foco na responsividade - RNF-03).</h4>
+<h4>João Lucas Piza Silva</h4>
+Responsável pelo design da interface destinada ao operador de produção, priorizando simplicidade e usabilidade.
+<h4>Kaique Gabriel da Silva Paiva</h4>
+Responsável pelo design do painel administrativo e pela organização das informações gerenciais.
+<h4>Luiz Miguel de Lira Sá</h4>
+Responsável pela adaptação da interface para diferentes dispositivos, garantindo a responsividade do sistema conforme os requisitos não funcionais definidos.
 
 
 ### Processo
 
-A equipe utiliza o GitHub Projects para o acompanhamento do desenvolvimento do projeto. [Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe deve fazer uso do GitHub Project para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir depois das informações uma imagem do Kanban do projeto. Será importante apresentar o status do Kanban em todas as reuniões com o Professor regente.]
+Utilizamos o GitHub Projects como principal ferramenta para organizar e acompanhar o desenvolvimento do projeto. Por meio dela, conseguimos registrar tarefas, acompanhar o progresso das funcionalidades e visualizar o andamento de cada etapa de desenvolvimento.
+
+Adotamos os princípios da metodologia Scrum para organizar nosso fluxo de trabalho. No início de cada etapa, analisamos e priorizamos as atividades que deverão ser desenvolvidas, distribuindo-as entre os integrantes da equipe de acordo com suas responsabilidades e áreas de atuação.
+
+Ao longo do desenvolvimento, mantemos o quadro Kanban constantemente atualizado, permitindo que todos os membros acompanhem o progresso das tarefas em tempo real. Também realizamos reuniões periódicas para alinhar objetivos, discutir dificuldades encontradas e definir os próximos passos do projeto.
+
+O uso do GitHub Projects tem contribuído para uma melhor organização das atividades, facilitando a comunicação entre os integrantes, o acompanhamento das entregas e a identificação de possíveis impedimentos durante o desenvolvimento da solução.
 
 >- [Quadro Kanban do Projeto](https://github.com/orgs/ICEI-PUC-Minas-PMV-SI/projects/402/views/1/)
 
