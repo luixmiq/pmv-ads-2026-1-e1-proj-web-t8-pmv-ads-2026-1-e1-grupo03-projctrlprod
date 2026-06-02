@@ -1,4 +1,3 @@
-
 # Metodologia
 
 O projeto foi desenvolvido utilizando a metodologia ágil Scrum, com divisão das atividades em sprints semanais. As tarefas foram organizadas e acompanhadas por meio do GitHub Projects, permitindo o controle das funcionalidades implementadas e das correções realizadas.
@@ -77,16 +76,9 @@ O uso do GitHub Projects tem contribuído para uma melhor organização das ativ
 - Testing: Esta coluna representa as Tarefas da Etapa em Revisão e/ou Teste. O integrante definido pela equipe revisa/testa a Tarefa do colega e, logo em seguida, apresenta na descrição da tarefa os resultados obtidos. O integrante que desenvolveu a Tarefa que apresenta revisões a serem realizadas deve aprimorar a sua Tarefa a partir das observações recebidas antes de movê-la para Done.
 - Done: Esta coluna representa as Tarefas concluídas, considerando que as Tarefas passaram pelos testes, foram aprimoradas pelos feedbacks obtidos nas revisões/testes e estão prontas para ser entregues.
 
-[Adicione uma imagem do Kanban do projeto]
+A Figura abaixo apresenta o quadro Kanban utilizado por nossa equipe para acompanhar o desenvolvimento do projeto e o andamento das atividades.
 
->- [Imagem solicitada](documentos/img/Solicitacao01.png)
-
-
-
-> **Links Úteis**:
-> - [Planejamento de projetos para desenvolvedores](https://github.com/features/project-management/)
-> - [Sobre Projects](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Ferramentas de gerenciamento do Projects no GitHub](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
+<img width="1920" height="873" alt="kaban2" src="https://github.com/user-attachments/assets/0fa7f90f-bb8f-4cc4-b605-91c5053ed1df" />
 
 
 ### Etiquetas
@@ -100,6 +92,7 @@ O uso do GitHub Projects tem contribuído para uma melhor organização das ativ
   <li>Infraestrutura (Infrastructure)</li>
   <li>Testes (Tests)</li>
 </ul>
+
 
 > - [Nosso link para acesso as tarefas](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-grupo03-projctrlprod/issues)
 
