@@ -1,8 +1,26 @@
 
 # Metodologia
 
-Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
+O projeto foi desenvolvido utilizando a metodologia ágil Scrum, com divisão das atividades em sprints semanais. As tarefas foram organizadas e acompanhadas por meio do GitHub Projects, permitindo o controle das funcionalidades implementadas e das correções realizadas.
 
+<ul>
+<h4>Tecnologias Utilizadas</h4>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript</li>
+<li>Figma</li>
+<li>Git e GitHub</li>
+<li>Visual Studio Code</li>
+</ul>
+
+<h4>Processos de Desenvolvimento</h4>
+<ol>
+<li>Levantamento dos requisitos do sistema</li>
+<li>Desenvolvimento do protótipo da interface</li>
+<li>Implementação das funcionalidades</li>
+<li>Testes e correções de erros</li>
+<li>Implantação e documentos do sistema</li>
+</ol>
 
 ## Gerenciamento de Projeto
 A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois como citam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios são a
