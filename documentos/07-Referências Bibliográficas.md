@@ -1,6 +1,6 @@
 # Referências Bibliográficas
 
-[Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.]
+AMARAL, Daniel Capaldo; FLEURY, André; ISONI, Maurício. Gestão ágil de projetos: aplicação em produtos inovadores. São Paulo: Saraiva, 2019.
 
 > **Links Úteis**:
 > - [Formato ABNT](https://www.normastecnicas.com/abnt/)
