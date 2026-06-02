@@ -23,29 +23,36 @@ O projeto foi desenvolvido utilizando a metodologia ágil Scrum, com divisão da
 </ol>
 
 ## Gerenciamento de Projeto
-A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois como citam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios são a
+A metodologia ágil escolhida para o desenvolvimento deste projeto foi o Scrum, por proporcionar maior organização das atividades, acompanhamento contínuo do progresso e colaboração entre os membros da equipe. Conforme destacam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios incluem a "visão clara dos resultados a entregar; ritmo e disciplina necessários à execução; definição de papéis e responsabilidades dos integrantes do projeto (Scrum Owner, Scrum Master e Team); empoderamento dos membros da equipe de projetos para atingir o desafio; conhecimento distribuído e compartilhado de forma colaborativa; ambiência favorável para crítica às ideias e não às pessoas."
 
-“visão clara dos resultados a entregar; ritmo e disciplina necessários à execução; definição de papéis e responsabilidades dos integrantes do projeto (Scrum Owner, Scrum Master e Team); empoderamento dos membros da equipe de projetos para atingir o desafio; conhecimento distribuído e compartilhado de forma colaborativa; ambiência favorável para crítica às ideias e não às pessoas.”
+A equipe adotou os princípios do Scrum para organizar as atividades de desenvolvimento, definir responsabilidades e acompanhar a evolução do sistema ao longo das etapas do projeto.
 
 ### Divisão de Papéis
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento. A divisão de responsabilidades está configurada da seguinte forma:
 
-Scrum Master: Gustavo Henrique Carvalho Ferreira (Responsável por garantir os ritos do Scrum e remover impedimentos).
+<h3>Scrum Master:</h3>
+<h4>Gustavo Henrique Carvalho Ferreira</h4>
+Responsável por garantir a aplicação das práticas do Scrum, conduzir os ritos da metodologia e auxiliar na remoção de impedimentos que possam impactar o desenvolvimento do projeto.
 
-Product Owner: Kaique Silveira (Responsável por priorizar os Requisitos Funcionais, como o cronômetro de produção - RF-01).
+<h3>Product Owner:</h3> 
+<h4>Kaique Silveira Sampaio</h4> 
+Responsável pelo gerenciamento e priorização dos requisitos do sistema, garantindo que as funcionalidades desenvolvidas estejam alinhadas às necessidades do projeto.
 
-Equipe de Desenvolvimento:
-Gustavo Henrique Carvalho Ferreira
-João Lucas Piza Silva
-Kaique Silveira
-Kaique Gabriel da Silva Paiva
-Luiz Miguel de Lira Sá
 
-Equipe de Design:
-João Lucas Piza Silva (Foco na interface do Torneiro - simplicidade).
-Kaique Gabriel da Silva Paiva (Foco no painel do Administrador).
-Luiz Miguel de Lira Sá (Foco na responsividade - RNF-03).
+<h3>Equipe de Desenvolvimento:</h3>
+<ul>
+<li>Gustavo Henrique Carvalho Ferreira</li>
+<li>João Lucas Piza Silva</li>
+<li>Kaique Silveira</li>
+<li>Kaique Gabriel da Silva Paiva</li>
+<li>Luiz Miguel de Lira Sá</li>
+</ul>
+
+<h3>Equipe de Design:</h3>
+<h4>João Lucas Piza Silva (Foco na interface do Torneiro - Simplicidade).</h4>
+<h4>Kaique Gabriel da Silva Paiva (Foco no painel do Administrador).</h4>
+<h4>Luiz Miguel de Lira Sá (Foco na responsividade - RNF-03).</h4>
 
 
 ### Processo
