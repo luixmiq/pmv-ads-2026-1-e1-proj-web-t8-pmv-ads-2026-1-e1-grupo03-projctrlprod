@@ -3,22 +3,26 @@
 
 ## User Flow
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de navegação do usuário na aplicação. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+Desenvolvemos o fluxo do usuário com o objetivo de mapear os caminhos percorridos pelos diferentes perfis dentro do sistema, permitindo visualizar as etapas de navegação e as funcionalidades disponíveis para cada tipo de acesso.
 
-[Adicione aqui o diagrama de fluxo de usuário da sua aplicação.] 
+O fluxo inicia na tela de login, onde o usuário deve informar suas credenciais. Após a validação dos dados, o sistema direciona o usuário para uma das áreas disponíveis de acordo com seu perfil de acesso.
+
+O perfil de Administrador possui acesso ao dashboard principal e às funcionalidades de gerenciamento do sistema, incluindo o controle da fila de peças, edição da fila de produção, cadastro de novas peças, cadastro de colaboradores e visualização das estatísticas de produção.
+
+Já o perfil de Produção é direcionado para a área operacional do sistema, onde seleciona o tipo de máquina a ser utilizada, escolhe o colaborador responsável pela operação e realiza o controle do tempo de produção por meio dos comandos de início, pausa e encerramento da atividade.
+
+O link abaixo apresenta o fluxo de navegação definido para o sistema, demonstrando as principais telas e interações disponíveis para os usuários.
 
 > - [Clique aqui para ver nossa UserFlow : ](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-grupo03-projctrlprod/blob/main/documentos/img/UserFlow_01.png)
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
 ## Protótipo
 
-Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. [Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).]
+Antes do desenvolvimento da aplicação, elaboramos protótipos das principais telas do sistema com o objetivo de validar a organização dos elementos da interface e garantir que a navegação atendesse às necessidades dos usuários.
 
-### Protótipo de baixa fidelidade
+Os protótipos permitiram identificar melhorias na disposição das informações, facilitando ajustes antes da implementação das funcionalidades. Essa etapa contribuiu para reduzir retrabalho durante o desenvolvimento e garantir uma experiência de uso mais intuitiva.
+
+### Protótipo de alta fidelidade ***
 
 Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
 
