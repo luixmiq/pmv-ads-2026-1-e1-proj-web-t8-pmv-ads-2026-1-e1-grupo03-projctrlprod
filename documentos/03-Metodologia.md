@@ -82,24 +82,22 @@ A Figura abaixo apresenta o quadro Kanban utilizado por nossa equipe para acompa
 
 
 ### Etiquetas
-<p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
+<p>Para facilitar a organização e o acompanhamento das atividades no GitHub Projects, utilizamos etiquetas para classificar as tarefas de acordo com sua natureza. Essa categorização permite uma melhor visualização das demandas do projeto e auxilia na distribuição das atividades entre os integrantes da equipe.</p>
 
 <ul>
-  <li>Bug (Erro no código)</li>
-  <li>Desenvolvimento (Development)</li>
-  <li>Documentação (Documentation)</li>
-  <li>Gerência de Projetos (Project Management)</li>
-  <li>Infraestrutura (Infrastructure)</li>
-  <li>Testes (Tests)</li>
+  <li>Bug: utilizada para identificar erros, falhas ou comportamentos inesperados encontrados no sistema.</li>
+  <li>Desenvolvimento: utilizada para tarefas relacionadas à implementação de funcionalidades e melhorias do software.</li>
+  <li>Documentação: utilizada para atividades relacionadas à elaboração e atualização da documentação do projeto.</li>
+  <li>Gerência de Projetos: utilizada para tarefas de planejamento, organização, acompanhamento e controle do projeto.</li>
+  <li>Testes: utilizada para tarefas de validação, revisão e verificação do correto funcionamento das funcionalidades implementadas.</li>
 </ul>
 
+A utilização dessas etiquetas contribui para uma melhor organização do quadro Kanban e facilita o acompanhamento do progresso das atividades ao longo do desenvolvimento do projeto.
 
 > - [Nosso link para acesso as tarefas](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-grupo03-projctrlprod/issues)
+<br>
 
-<figure> 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-grupo03-projctrlprod/tree/main/documentos/img/Solicitação02.png"
-  <figcaption>Nossa imagem - Tela do esquema de cores e categorias</figcaption>
-</figure> 
+
 
 > - [Nosso link para acesso a imagem](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-grupo03-projctrlprod/tree/main/documentos/img/Solicitação02.png)
 
@@ -111,22 +109,33 @@ A Figura abaixo apresenta o quadro Kanban utilizado por nossa equipe para acompa
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de Interface                | Figma                              | http://....                            |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
+| Repositório de código fonte         | GitHub                             |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-grupo03-projctrlprod/tree/main/codigo-fonte  |
+| Documentos do projeto               | GitHub                             |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-grupo03-projctrlprod/tree/main/documentos    |
+| Projeto de Interface                | Figma                              |https://www.figma.com/team_invite/redeem/eqJNqFrdAgTTGmxuBP331L?t=YUOXTjwklfpciTts-22                                                  |
+| Gerenciamento do Projeto            | GitHub Projects                    |https://github.com/orgs/ICEI-PUC-Minas-PMV-SI/projects/402/views/1                                                                     |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
 
 ### Estratégia de Organização de Codificação 
 
-Ambiente de Desenvolvimento: O código é escrito utilizando editores de texto modernos (como VS Code), focando na simplicidade do HTML5, CSS3 e JavaScript puro, conforme os requisitos não funcionais.
+Para garantir a organização e a qualidade do desenvolvimento do projeto, definimos uma estratégia de trabalho baseada na utilização de ferramentas que auxiliam na implementação, documentação e gerenciamento das atividades da equipe.
 
-Gestão de Código e Documentação: O GitHub foi escolhido como repositório central para garantir o versionamento e a integridade dos arquivos, permitindo que todos os membros contribuam simultaneamente na pasta codigo-fonte.
+<h3>Ambiente de Desenvolvimento</h3>
 
-Design de Interface: O Figma é utilizado para desenhar os protótipos das telas do Torneiro e do Administrador antes da codificação, garantindo que a interface seja funcional e intuitiva.
+Utilizamos o Visual Studio Code como principal ambiente de desenvolvimento, devido à sua praticidade e compatibilidade com as tecnologias adotadas no projeto. O sistema é desenvolvido utilizando HTML5, CSS3 e JavaScript, seguindo os requisitos funcionais e não funcionais definidos durante o planejamento.
 
-Gestão de Equipe: A organização das tarefas ocorre via GitHub Projects (quadro Kanban) e a comunicação rápida do grupo é feita via WhatsApp/Teams, onde ocorrem as reuniões de alinhamento do Scrum.
+<h3>Gestão de Código e Documentação</h3>
 
+O GitHub é utilizado como repositório central do projeto, permitindo o versionamento do código-fonte, o armazenamento da documentação e o acompanhamento das alterações realizadas pelos integrantes da equipe. Dessa forma, conseguimos manter a integridade dos arquivos e facilitar o trabalho colaborativo.
 
-Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site são inseridos na pasta [codigo-fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/WebApplicationProject-Template-v2/tree/main/codigo-fonte). [Consulte a nossa sugestão referente a estratégia de organização de codificação a ser adotada pela equipe de desenvolvimento do projeto.]
+<h3>Design de Interface</h3>
+
+Utilizamos o Figma para a criação dos protótipos das telas do sistema antes da implementação. Essa etapa permite validar a organização dos elementos da interface, contribuindo para uma melhor experiência de uso tanto para os operadores quanto para os administradores do sistema.
+
+<h3>Gestão da Equipe</h3>
+
+A organização das atividades é realizada por meio do GitHub Projects, utilizando um quadro Kanban para acompanhar o andamento das tarefas. A comunicação entre os integrantes ocorre por meio de ferramentas como WhatsApp e Microsoft Teams, utilizadas para alinhamentos, discussões técnicas e acompanhamento das atividades previstas na metodologia Scrum.
+
+<h3>Organização dos Arquivos</h3>
+
+Os arquivos relacionados ao desenvolvimento do sistema são armazenados e organizados no repositório GitHub do projeto. Essa estrutura permite centralizar o código-fonte, a documentação e demais artefatos produzidos durante o desenvolvimento, facilitando a manutenção e o acesso às informações por todos os membros da equipe.
