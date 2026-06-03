@@ -6,14 +6,15 @@
     <section class="cards">
         <div class="card">
             <h3>Ordens de Serviço</h3>
-            <p>12 Pendentes</p>
+            <p><span id="totalPedidos"></span> Pendentes</p>
        </div>
        <div class="card">
             <h3>Produção</h3>
-            <p>85% da meta</p>
+            <p><span id="totalConcluido"></span> Concluidos</p>
+            <button class="btn-zerarMarcador" onclick="ZerarMarcador()">Zerar contagem do marcador</button>
        </div>
        <div class="card">
             <h3>Máquinas</h3>
-            <p>4 em operação</p>
+            <p><span id="totalMaquinas"></span> Máquinas em Operação</p>
        </div>
     </section>
