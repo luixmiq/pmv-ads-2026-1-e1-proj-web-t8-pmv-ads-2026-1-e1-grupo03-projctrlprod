@@ -1,0 +1,46 @@
+    <header>
+        <h1>Acompanhamento de produção</h1>
+            <p>Mantenha sua produção sob controle: visualize e gerencie suas tarefas aqui..</p>
+    </header>
+
+    <section class="cards">
+        <div class="card">
+            <h3>Ordens de Serviço</h3>
+            <p><span id="totalPedidos"></span> Pendentes</p>
+       </div>
+       <div class="card">
+            <h3>Produção</h3>
+            <p><span id="totalConcluido"></span> Concluidos</p>
+       </div>
+       <div class="card">
+            <h3>Máquinas</h3>
+            <p><span id="totalMaquinas"></span> máquinas em operação</p>
+       </div>
+    </section>
+
+        <div class="table-container">
+        <table class="custom-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome produto</th>
+                    <th>Número pedido</th>
+                    <th>Material</th>
+                    <th>Nível de urgência</th>
+                    <th>Identificação máquina</th>
+                    <th>Controle</th>
+                    <th>Inicio</th>
+                    <th>Pausa</th>
+                    <th>Fim</th>
+                    <th>Cronometro</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-corpo">
+                <!-- Os dados vão aparecer aqui via JS -->
+            </tbody>
+        </table>
+        </div>
+
+  <div>
+    <button id="BtnAtualizar" name="button" onclick="listarPedidos()">ATUALIZAR</button>
+  </div>

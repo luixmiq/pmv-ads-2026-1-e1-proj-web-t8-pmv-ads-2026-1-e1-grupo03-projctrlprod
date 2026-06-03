@@ -13,6 +13,11 @@
     --accent: #6366f1;       /* Indigo Moderno */
     --text-muted: #94a3b8;
     --border-color: #1e293b;
+
+    --accentNormal:rgb(0, 147, 232);
+    --accentMedia:rgb(255, 255, 0);
+    --accentAlta:rgb(255, 165, 0);
+    --accentCritica: #ff0c0c;
 }
 
 body, html {
@@ -136,7 +141,33 @@ header p { color: #64748b; margin-bottom: 40px; }
 }
 
 
+/* BASE COMUM PARA TODOS OS BADGES */
+.badgeNormal, .badgeMedia, .badgeAlta, .badgeCritica {
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: white; /* Padrão de texto branco para quase todos */
+}
 
+/* CORES ESPECÍFICAS DE CADA UM */
+.badgeNormal {
+    background: var(--accentNormal);
+}
+
+.badgeMedia {
+    background: var(--accentMedia);
+    color: #000000; /* Texto escuro aqui para dar leitura sobre o amarelo */
+}
+
+.badgeAlta {
+    background: var(--accentAlta);
+    color: #000000; /* Texto escuro aqui para dar leitura sobre o amarelo */
+}
+
+.badgeCritica {
+    background: var(--accentCritica);
+}
 
 
 /* Container que centraliza o formulário no meio da área branca */
@@ -174,7 +205,7 @@ header p { color: #64748b; margin-bottom: 40px; }
 }
 
 .input-group input {
-    width: 100%;
+    width: 100%;    
     padding: 12px;
     border: 1.5px solid #e2e8f0;
     border-radius: 8px;
@@ -186,6 +217,14 @@ header p { color: #64748b; margin-bottom: 40px; }
     outline: none;
     border-color: #6366f1;
     background: #fff;
+}
+
+.input-group select {
+    padding: 4px;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 8px;
+    background: #eaebeb;
+    transition: 0.3s;
 }
 
 #BtnLogin, #BtnCadastrar, #BtnAtualizar {
@@ -269,6 +308,7 @@ header p { color: #64748b; margin-bottom: 40px; }
     color: #ef4444;
     border: none;
     padding: 6px 12px;
+    margin: 2.5px 0;
     border-radius: 6px;
     cursor: pointer;
     font-weight: 600;
@@ -279,9 +319,20 @@ header p { color: #64748b; margin-bottom: 40px; }
     color: #ef4444;
     border: none;
     padding: 6px 12px;
+    margin: 2.5px 0;
     border-radius: 6px;
     cursor: pointer;
     font-weight: 600;
+}
+
+.btn-zerarMarcador{
+    background: #88beff;
+    color: #000000;
+    border: none;
+    padding: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600; 
 }
 
 dialog {
