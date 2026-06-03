@@ -5,37 +5,48 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil 01 : Administrador </th>
+<th colspan="4">Perfil 01 : Administrador </th>
 </tr>
 <tr>
-<td width="150px"><b>Descrição</b></td>
-<td width="600px">Gerente ou organizador que supervisiona a produção</td>
+<td width="100px"><b>Descrição</b></td>
+<td width="370px">Gerente ou organizador que supervisiona a produção</td>
+<td width="370px">Gerente ou organizador que supervisiona a produção</td>
+<td width="370px">Gerente ou organizador que supervisiona a produção</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
 <td>
   1 - Saber se o orçamento está de acordo com a fabricação.
+<td>
   2 - Controlar a ordem de fabricação das peças por fila e prioridade.
-  3 - Identificar gaps e corrigir o processo do orçamento a fabricação.
+</td>  
+<td>
+    3 - Identificar gaps e corrigir o processo do orçamento a fabricação.
 </td>
 </tr>
 </tbody>
 </table>
-
+<br>
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil 02 : Torneiro </th>
+<th colspan="4">Perfil 02 : Torneiro </th>
 </tr>
 <tr>
-<td width="150px"><b>Descrição</b></td>
-<td width="600px">Colaborador responsável pela fabricação das peças</td>
+<td width="100px"><b>Descrição</b></td>
+<td width="350px">Colaborador responsável pela fabricação das peças</td>
+<td width="350px">Colaborador responsável pela fabricação das peças</td>
+<td width="350px">Colaborador responsável pela fabricação das peças</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
 <td>
   1 - Entender como o sistema da empresa funciona.
+</td>
+<td>  
   2 - Registrar o progresso e o desenvolvimento pessoal.
+</td>
+<td>  
   3 - Exibir o desempenho individual para administração.
 </td>
 </tr>
@@ -66,27 +77,26 @@
 
 ### Requisitos Funcionais
 
-|ID      | Descrição                                                                                                                           | Prioridade |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------|------------|
-| RF-01  | O sistema deve possibilitar o cadastro de novos colaboradores dos setores da produção e administração.                              | Alta       | 
-| RF-02  | O sistema deve permitir que um torneiro inicie, pause e conclua o tempo de produção de uma determinada peça.                        | Alta       |
-| RF-03  | O sistema deve possibilitar a administração programar uma fila de produção com base na sua categoria (crítica, alta, média, normal).| Alta       |
-| RF-04  | O sistema deve possibilitar a administração ver quais peças obtiveram lucro ou prejuízo durante sua produção.                       | Alta       |
-| RF-05  | O sistema deve possibilitar a identificação de qual máquina executou o trabalho (CNC, Torno).                                       | Alta       |
-| RF-06  | O sistema deve possibilitar segregação de acesso a páginas de acordo com os perfis de usuários.                                     | Alta       |
-| RF-07  | O sistema deve permitir o setor administrativo criar o orçamento da peça dentro da plataforma.                                      | Média      |
-| RF-08  | O sistema deve permitir que o setor administrativo ajuste os custos fixos como água, luz, internet, pastilhas e hora máquina.       | Média      |
-| RF-09  | O sistema deve permitir a apresentação de gráficos da fila de produção atual                                                        | Média      |
-| RF-10  | O sistema deve permitir acesso ao tutorial de como usar o aplicativo                                                                | Média      |
-| RF-11  | O sistema deve conseguir salvar os resultados anteriores e criar filtros para exibir em gráficos esses resultados.                  | Média      |
-| RF-12  | O sistema deve permitir que o colaborador registre uma manutenção inesperada.                                                       | Média      |
-| RF-13  | O sistema deve permitir a exportação de logs, para saber o que foi feito e por quem dentro da aplicação.                            | Baixa      |
+|ID       | Descrição                                                                                                                           | Prioridade |
+|---------|-------------------------------------------------------------------------------------------------------------------------------------|------------|
+| RF-01   | O sistema deve possibilitar o cadastro de novos colaboradores dos setores da produção e administração.                              | Alta       | 
+| RF-02   | O sistema deve permitir que um torneiro inicie, pause e conclua o tempo de produção de uma determinada peça.                        | Alta       |
+| RF-03   | O sistema deve possibilitar a administração programar uma fila de produção com base na sua categoria (crítica, alta, média, normal).| Alta       |
+| RF-04   | O sistema deve possibilitar a administração ver quais peças obtiveram lucro ou prejuízo durante sua produção.                       | Alta       |
+| RF-05   | O sistema deve possibilitar a identificação de qual máquina executou o trabalho (CNC, Torno).                                       | Alta       |
+| RF-06   | O sistema deve possibilitar segregação de acesso a páginas de acordo com os perfis de usuários.                                     | Alta       |
+| RF-07   | O sistema deve permitir o setor administrativo criar o orçamento da peça dentro da plataforma.                                      | Média      |
+| RF-08   | O sistema deve permitir que o setor administrativo ajuste os custos fixos como água, luz, internet, pastilhas e hora máquina.       | Média      |
+| RF-09   | O sistema deve permitir a apresentação de gráficos da fila de produção atual                                                        | Média      |
+| RF-10   | O sistema deve permitir acesso ao tutorial de como usar o aplicativo                                                                | Média      |
+| RF-11   | O sistema deve conseguir salvar os resultados anteriores e criar filtros para exibir em gráficos esses resultados.                  | Média      |
+| RF-12   | O sistema deve permitir que o colaborador registre uma manutenção inesperada.                                                       | Média      |
+| RF-13   | O sistema deve permitir a exportação de logs, para saber o que foi feito e por quem dentro da aplicação.                            | Baixa      |
 
 
 
 ### Requisitos não Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
 
 |ID      | Descrição                                                                                       |Prioridade |
 |--------|-------------------------------------------------------------------------------------------------|-----------|
@@ -95,6 +105,3 @@
 | RNF-03 | O sistema deve ser responsivo.                                                                  | Alta      | 
 | RNF-04 | O sistema deve ser compatível com os principais navegadores do mercado (Firefox, Chrome, Edge)  | Alta      | 
 | RNF-05 | O sistema deve utilizar armazenamento local do navegador.                                       | Alta      | 
-
-
-
