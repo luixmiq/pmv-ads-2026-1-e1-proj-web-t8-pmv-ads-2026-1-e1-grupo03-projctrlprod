@@ -18,24 +18,98 @@ O link abaixo apresenta o fluxo de navegação definido para o sistema, demonstr
 
 ## Protótipo
 
-Antes do desenvolvimento da aplicação, elaboramos protótipos das principais telas do sistema com o objetivo de validar a organização dos elementos da interface e garantir que a navegação atendesse às necessidades dos usuários.
+Durante o desenvolvimento do projeto, utilizamos protótipos para validar a estrutura, a navegação e a aparência da aplicação antes da implementação das funcionalidades.
 
-Os protótipos permitiram identificar melhorias na disposição das informações, facilitando ajustes antes da implementação das funcionalidades. Essa etapa contribuiu para reduzir retrabalho durante o desenvolvimento e garantir uma experiência de uso mais intuitiva.
+### Protótipo de Baixa fidelidade 
 
-### Protótipo de alta fidelidade ***
+Inicialmente, desenvolvemos um protótipo de baixa fidelidade utilizando o Microsoft Excel. Cada planilha representava uma tela do sistema, permitindo simular a navegação entre as funcionalidades e organizar o fluxo de utilização pelos usuários.
 
-Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
+Essa abordagem possibilitou validar a estrutura geral da aplicação, a disposição das informações e o fluxo de navegação antes do início do desenvolvimento das interfaces definitivas.
 
-[Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
+As Figuras abaixo apresentam parte do protótipo de baixa fidelidade utilizado durante a fase de planejamento do projeto.
 
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
->- Ferramentas:
->> - [Pencil](https://pencil.evolus.vn/)
->> - [MarvelApp](https://marvelapp.com/)
->> - [Figma](https://www.figma.com/)
+<h2>Cadastro de Pedidos</h2>
+
+<img width="1224" height="557" alt="Captura de tela 2026-06-03 230727" src="https://github.com/user-attachments/assets/07d3ab1f-0960-4a45-bd88-32c3a6628e98" />
+
+<h2>Cadastro de Máquinas</h2>
+
+<img width="1219" height="565" alt="Captura de tela 2026-06-03 230541" src="https://github.com/user-attachments/assets/82fa67ad-27cc-43c5-887a-d4e130527b57" />
+
+<h2>Cadastro de Produtos</h2>
+
+<img width="1125" height="535" alt="Captura de tela 2026-06-03 231104" src="https://github.com/user-attachments/assets/e18a0236-2412-41e6-843c-43ead2d1866e" />
+
+<h2>Produção de Peças</h2>
+
+<img width="1112" height="513" alt="Captura de tela 2026-06-03 231206" src="https://github.com/user-attachments/assets/cc929304-2d15-486e-ab73-46ae70dadee6" />
+
+<h2>Estoque de produção</h2>
+
+<img width="1124" height="521" alt="Captura de tela 2026-06-03 231325" src="https://github.com/user-attachments/assets/a74309e1-6ac1-4565-affb-1bbf7740c12f" />
+
+<h2>Financeiro</h2>
+
+<img width="1126" height="517" alt="Captura de tela 2026-06-03 231405" src="https://github.com/user-attachments/assets/7f0095d0-04c0-447c-9792-6cea5497c124" />
+
+<h2>Relatório</h2>
+
+<img width="1124" height="528" alt="Captura de tela 2026-06-03 231452" src="https://github.com/user-attachments/assets/93ed62d1-b964-4e72-90ed-a26f2589a34c" />
+
+<h2>Vendas e Clientes</h2>
+
+<img width="1123" height="514" alt="Captura de tela 2026-06-03 231614" src="https://github.com/user-attachments/assets/4d44bcd1-0e30-4c19-8bb7-1148aaad0464" />
+
+### Protótipo de Alta fidelidade 
+
+Após a validação da estrutura inicial, desenvolvemos protótipos de alta fidelidade utilizando a ferramenta Figma. Nessa etapa foram definidos os aspectos visuais da aplicação, incluindo cores, tipografia, menus, componentes gráficos e organização das informações.
+
+Os protótipos de alta fidelidade permitiram visualizar o comportamento esperado do sistema e realizar ajustes de usabilidade antes da implementação das funcionalidades.
+
+As Figuras abaixo apresentam algumas das telas desenvolvidas para o sistema.
+
+<h2>Tela de login</h2>
+
+<img width="1397" height="746" alt="Captura de tela 2026-06-03 232712" src="https://github.com/user-attachments/assets/c52a1b86-dfa2-424c-8cec-88d66b428f82" />
+
+<h2>Tela Principal</h2>
+
+<img width="1063" height="597" alt="Captura de tela 2026-06-03 233203" src="https://github.com/user-attachments/assets/2b0d1e6d-b338-48b2-8834-9c16378be2b2" />
+
+<h2>Cadastro de Insumos</h2>
+
+<img width="1116" height="632" alt="Captura de tela 2026-06-03 233342" src="https://github.com/user-attachments/assets/80f4ffdb-3113-4dca-a6dc-bc41f9cc5009" />
+
+<h2>Cadastro de Produtos</h2>
+
+<img width="1123" height="629" alt="Captura de tela 2026-06-03 233446" src="https://github.com/user-attachments/assets/01f53247-1e51-48c6-aa09-9107eb680856" />
+
+<h2>Produção de Peças</h2>
+
+<img width="1113" height="625" alt="Captura de tela 2026-06-03 233702" src="https://github.com/user-attachments/assets/2c133801-7248-4c16-9cfd-cdaf2089aa30" />
+
+<h2>Estoque de produção</h2>
+
+<img width="1136" height="647" alt="Captura de tela 2026-06-03 233759" src="https://github.com/user-attachments/assets/f28b53e4-9cf6-49ae-8214-1ca35c000c57" />
+
+<h2>Financeiro</h2>
+
+<img width="1137" height="641" alt="Captura de tela 2026-06-03 234205" src="https://github.com/user-attachments/assets/7581262c-8a28-430b-9fbf-d0bcc425553f" />
+
+<br>
+<br>
+
+<h2>Considerações sobre a Prototipação</h2>
+<footer>
+<p>A utilização dos protótipos de baixa e alta fidelidade foi fundamental para o desenvolvimento do projeto, pois permitiu validar a estrutura das telas, o fluxo de navegação e a experiência do usuário antes da implementação das funcionalidades. Dessa forma, foi possível identificar melhorias, reduzir retrabalho e garantir que a interface atendesse aos requisitos definidos para o sistema.
+</p>
+<h4>Refinamento da Interface do Sistema</h4>
+<p>
+ O processo de prototipação permitiu validar tanto a estrutura quanto os aspectos visuais do sistema antes da implementação. A utilização de protótipos de baixa fidelidade auxiliou na definição do fluxo de navegação e da organização das funcionalidades, enquanto os protótipos de alta fidelidade possibilitaram avaliar a aparência final da aplicação e a experiência do usuário.
+
+Com essa abordagem, foi possível identificar oportunidades de melhoria, realizar ajustes antecipadamente e reduzir retrabalho durante o desenvolvimento do sistema, contribuindo para a construção de uma interface mais intuitiva e alinhada aos objetivos do projeto.
+</p> 
+</footer>
 
 
 
