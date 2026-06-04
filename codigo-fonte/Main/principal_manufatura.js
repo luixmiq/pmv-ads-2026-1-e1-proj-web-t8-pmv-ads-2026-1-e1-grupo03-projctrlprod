@@ -159,7 +159,7 @@ function IniciarPedido(id) {
         }
     }
     else {
-        alert("Primeiro finalize a produção da peça anterior antes de iniciar uma nova.")
+        alert("Primeiro finalize ou pause a produção da peça anterior antes de iniciar uma nova.")
     }
 
 }
