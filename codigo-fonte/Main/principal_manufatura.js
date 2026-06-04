@@ -52,10 +52,10 @@ function atualizarHome() {
     document.getElementById('totalPedidos').innerText = "0 Pedidos";
 
     let concluidos = localStorage.getItem('Concluidos');
-    if(concluidos)
+    if(concluidos >= 1)
     document.getElementById('totalConcluido').innerText = concluidos;
     else
-    document.getElementById('totalConcluido').innerText = "0 Pedidos";
+    document.getElementById('totalConcluido').innerText = "0";
 
     listarPedidos();
 }
