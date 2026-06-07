@@ -61,3 +61,33 @@ All pages follow the same visual identity, using standardized colors, components
 
 Figure X presents the standard template adopted for the system interfaces.
 
+
+# Standard Application Template
+
+## Standard Application Layout
+
+To ensure a consistent user experience, we adopted a standard interface layout that will be used across all system pages. The purpose of this standardization is to facilitate navigation, improve information organization, and reduce the users' learning curve.
+
+The application structure consists of the following elements:
+
+### Top Bar (Header)
+
+Located at the top of the application, the header displays the system identity, authenticated user information, and options related to the user account and session.
+
+### Side Navigation Menu
+
+Positioned on the left side of the screen, the navigation menu provides centralized access to the main system functionalities, including user, machine, and work order registration and management. This structure allows quick and intuitive access to the application's modules.
+
+### Main Content Area
+
+This is the central area of the interface, where information and functionalities related to the selected page are displayed. This section contains forms, tables, charts, indicators, and other system resources.
+
+### Indicators Panel
+
+The main dashboard displays informational cards containing important production metrics, such as pending work orders, completed orders, and machines currently in operation.
+
+### Responsiveness and Visual Consistency
+
+All pages follow the same visual identity, using standardized colors, components, and graphical elements to ensure consistency and facilitate system usability.
+
+Figure X illustrates the standard layout adopted for the system interfaces.
