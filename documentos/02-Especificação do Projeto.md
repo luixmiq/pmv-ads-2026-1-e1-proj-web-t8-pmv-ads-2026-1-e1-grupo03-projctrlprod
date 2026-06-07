@@ -98,6 +98,59 @@
 ### Requisitos não Funcionais
 
 
+# Project Specification
+
+## User Profiles
+
+## User Stories
+
+| AS A... `WHO` | I WANT/NEED TO... `WHAT`                                                | SO THAT... `WHY`                                                         |
+| ------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Machinist     | I want to track the production time and cost of each part               | So that I can record my performance.                                     |
+| Administrator | I want to monitor the production queue                                  | So that I can better coordinate employees.                               |
+| Administrator | I want to monitor what has already been produced                        | So that I can maintain control and improve communication with customers. |
+| Administrator | I want to create a production estimate for each type of part            | So that I can establish accurate production costs.                       |
+| Administrator | I want to better understand my hourly production costs                  | So that I can make more informed decisions and avoid company losses.     |
+| Administrator | I want to analyze which shift is the most productive                    | So that I can organize and balance the workforce.                        |
+| Administrator | I want to analyze which machine is producing the most parts             | So that I can balance machine wear and usage.                            |
+| Administrator | I want to know how many cycles have been completed on each machine      | So that I can compare the usage of CNC machines and lathes.              |
+| Machinist     | I want to understand how the system works as soon as I join the company | So that I can start my work correctly from day one.                      |
+| Machinist     | I want to know how much I have produced during the month                | So that I can demonstrate my productivity.                               |
+| Administrator | I want to know the fixed production costs                               | So that I can have a complete view of ongoing expenses.                  |
+| Administrator | I want my employees to be restricted from accessing certain information | So that confidential information remains protected.                      |
+| Machinist     | I want to be able to register unexpected maintenance events             | So that management can accurately assess production costs.               |
+
+## Project Requirements
+
+### Functional Requirements
+
+| ID    | Description                                                                                                                                              | Priority |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| FR-01 | The system must allow the registration of new employees from both production and administrative departments.                                             | High     |
+| FR-02 | The system must allow a machinist to start, pause, and complete the production time tracking of a specific part.                                         | High     |
+| FR-03 | The system must allow administrators to schedule a production queue based on priority categories (critical, high, medium, and normal).                   | High     |
+| FR-04 | The system must allow administrators to identify which parts generated profit or loss during production.                                                 | High     |
+| FR-05 | The system must identify which machine performed the work (CNC machine or lathe).                                                                        | High     |
+| FR-06 | The system must provide role-based access control according to user profiles.                                                                            | High     |
+| FR-07 | The system must allow the administrative department to create production estimates within the platform.                                                  | Medium   |
+| FR-08 | The system must allow the administrative department to adjust fixed costs such as water, electricity, internet, cutting inserts, and machine-hour rates. | Medium   |
+| FR-09 | The system must provide graphical representations of the current production queue.                                                                       | Medium   |
+| FR-10 | The system must provide access to a tutorial explaining how to use the application.                                                                      | Medium   |
+| FR-11 | The system must save historical production data and provide filters for displaying this information through reports and charts.                          | Medium   |
+| FR-12 | The system must allow employees to register unexpected maintenance events.                                                                               | Medium   |
+| FR-13 | The system must allow the export of activity logs, making it possible to identify what actions were performed and by whom within the application.        | Low      |
+
+### Non-Functional Requirements
+
+| ID     | Description                                                                                          | Priority |
+| ------ | ---------------------------------------------------------------------------------------------------- | -------- |
+| NFR-01 | The system must be developed using HTML, CSS, and JavaScript.                                        | High     |
+| NFR-02 | The system must be available as a web application.                                                   | High     |
+| NFR-03 | The system must be responsive.                                                                       | High     |
+| NFR-04 | The system must be compatible with the major web browsers on the market (Firefox, Chrome, and Edge). | High     |
+| NFR-05 | The system must use the browser's local storage for data persistence.                                | High     |
+
+
 |ID      | Descrição                                                                                       |Prioridade |
 |--------|-------------------------------------------------------------------------------------------------|-----------|
 | RNF-01 | O sistema deve ser desenvolvido em HTML, CSS e JS.                                              | Alta      | 
