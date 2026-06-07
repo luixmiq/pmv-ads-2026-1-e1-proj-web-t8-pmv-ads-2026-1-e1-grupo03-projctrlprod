@@ -191,3 +191,26 @@ Imagem da Tela
 * index.html
 * style.css
 * script.js
+
+## Acompanhamento e controle de produção
+
+<h4>Responsavel: Kaique Silveira Sampaio</h4>
+
+### Descrição
+
+A tela onde o colaborador responsável pela produção das peças pode ver a fila, qual o grau de prioridade das peças e indicar qual está sendo produzida no momento para o seu supervisor, melhorando a comunicação do time logo após a operação da tela os dados são coletadors desse fluxo direto para uma tela de relátorios.
+
+<h3>Instruções de Acesso</h3>
+
+A funcionalidade pode ser acessada após fazer login com a categoria de manufatura, não existem menus ou submenus disponiveis para este grupo de usúario, a ideia é que seja simples, direta e ágil.
+
+Imagem da Tela
+
+<img width="1920" height="952" alt="Capturar7" src="https://github.com/user-attachments/assets/3599f3f0-d991-42f0-9431-e1724b718f9e"/>
+
+ Artefatos da Funcionalidade
+
+* index.html
+* style.css
+* script.js
+
