@@ -206,11 +206,11 @@ A funcionalidade pode ser acessada após fazer login com a categoria de manufatu
 
 Imagem da Tela
 
-<img width="1920" height="952" alt="Capturar7" src="https://github.com/user-attachments/assets/3599f3f0-d991-42f0-9431-e1724b718f9e"/>
+<img width="1920" height="952" alt="Capturar7" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-grupo03-projctrlprod/blob/main/documentos/img/Capturar7.png"/>
 
  Artefatos da Funcionalidade
 
-* index.html
-* style.css
-* script.js
+* homeManufatura_content.html
+* principal_manufatura.css
+* principal_manufatura.js
 
