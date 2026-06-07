@@ -31,4 +31,33 @@ A Figura X apresenta o modelo padrão adotado para as interfaces do sistema.
 <img width="1161" height="773" alt="Captura de tela 2026-06-07 163615" src="https://github.com/user-attachments/assets/c777add7-61f3-41fe-95cf-5e4f4a34733f" />
 
 
+# Standard Application Template
+
+## Standard Application Model
+
+To ensure a consistent user experience, we adopted a standard interface model that will be used across all system pages. The purpose of this standardization is to facilitate navigation, improve information organization, and reduce the learning curve for users.
+
+The application structure is composed of the following elements:
+
+### Top Bar (Header)
+
+Located at the top of the application, the header displays the system identification, authenticated user information, and options related to the user's account and session.
+
+### Side Navigation Menu
+
+Positioned on the left side of the screen, the navigation menu centralizes access to the system’s main functionalities, including user, machine, and work order registration and management. This organization allows quick access to the application's modules.
+
+### Main Content Area
+
+This corresponds to the central region of the interface, where information and functionalities related to the selected page are displayed. This area contains forms, tables, charts, performance indicators, and other system resources.
+
+### Dashboard Indicators Panel
+
+On the main dashboard, informational cards display important production metrics, such as pending work orders, completed jobs, and machines currently in operation.
+
+### Responsiveness and Visual Standardization
+
+All pages follow the same visual identity, using standardized colors, components, and graphical elements to ensure consistency and facilitate system usage.
+
+Figure X presents the standard template adopted for the system interfaces.
 
