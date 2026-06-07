@@ -112,4 +112,41 @@ Com essa abordagem, foi possível identificar oportunidades de melhoria, realiza
 </footer>
 
 
+# Interface Design
+
+## User Flow
+
+We developed the user flow with the objective of mapping the paths taken by different user profiles within the system, allowing visualization of navigation stages and the functionalities available for each type of access.
+
+The flow begins at the login screen, where users must enter their credentials. After validation, the system directs the user to the appropriate area according to their access profile.
+
+The **Administrator** profile has access to the main dashboard and system management functionalities, including production queue control, production schedule editing, new part registration, employee registration, and production statistics visualization.
+
+The **Production Operator** profile is directed to the operational area of the system, where users select the type of machine to be used, choose the employee responsible for the operation, and manage production time through start, pause, and stop controls.
+
+The link below presents the navigation flow defined for the system, demonstrating the main screens and interactions available to users.
+
+> * [Click here to view our User Flow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-grupo03-projctrlprod/blob/main/documentos/img/UserFlow_01.png)
+
+## Prototype
+
+During project development, prototypes were used to validate the structure, navigation, and appearance of the application before implementing its functionalities.
+
+### Low-Fidelity Prototype
+
+Initially, we developed a low-fidelity prototype using Microsoft Excel. Each spreadsheet represented a system screen, allowing us to simulate navigation between functionalities and organize the user workflow.
+
+This approach enabled validation of the application's overall structure, information layout, and navigation flow before beginning the development of the final interfaces.
+
+The figures below present part of the low-fidelity prototype used during the project planning phase.
+
+### High-Fidelity Prototype
+
+After validating the initial structure, we developed high-fidelity prototypes using the Figma platform. At this stage, the visual aspects of the application were defined, including colors, typography, menus, graphical components, and information organization.
+
+The high-fidelity prototypes allowed us to visualize the expected behavior of the system and make usability adjustments before implementing the functionalities.
+
+The figures below present some of the screens developed for the system.
+
+Through this approach, it was possible to identify opportunities for improvement, make adjustments in advance, and reduce rework during system development, contributing to the creation of a more intuitive interface aligned with the project's objectives.
 
