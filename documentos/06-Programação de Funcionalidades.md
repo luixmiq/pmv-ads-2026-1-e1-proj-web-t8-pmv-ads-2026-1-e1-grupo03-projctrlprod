@@ -170,7 +170,7 @@ O usuário deve acessar a opção "Cadastrar Pedidos", preencher os dados solici
 
 ## Gerenciamento de Pedidos
 
-<h4>Responsavel: Kaique Silveira Sampaio</h4><h4>Responsavel: Kaique Silveira Sampaio</h4>
+<h4>Responsavel: Kaique Silveira Sampaio</h4>
 
 ### Descrição
 
