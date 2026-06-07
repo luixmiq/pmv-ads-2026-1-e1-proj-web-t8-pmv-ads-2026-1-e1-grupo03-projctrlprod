@@ -214,3 +214,190 @@ Imagem da Tela
 * principal_manufatura.css
 * principal_manufatura.js
 
+# Feature Implementation
+
+## Login Screen
+
+### Description
+
+The login screen serves as the system's entry point and is responsible for user authentication and access control. By validating the credentials provided, the system identifies the user's profile and grants access only to the functionalities compatible with their permissions.
+
+This feature contributes to the security of stored information by preventing unauthorized access and ensuring that each employee can only view the tools necessary for performing their activities.
+
+When starting the application, users must enter their username and password in the corresponding fields. After successful validation, the system automatically redirects them to the appropriate area according to their access profile.
+
+### Screen Image
+
+### Feature Artifacts
+
+* index.html
+* style.css
+* script.js
+
+### Access Instructions
+
+When opening the system, users must enter their username and password in the corresponding fields. After validation, the system redirects them to the appropriate area.
+
+---
+
+## User Registration Screen
+
+### Description
+
+The user registration feature allows new employees to be added to the system, ensuring that each member of the organization has an individual account to access the platform. During registration, essential information is recorded to identify the user and define their access permissions.
+
+This feature is fundamental for system administration, as it enables access profile management and contributes to the traceability of user actions.
+
+The administrator must access the **"Register Users"** option in the side navigation menu, fill in the required information, select the appropriate profile for the new user, and confirm the registration.
+
+### Screen Image
+
+### Feature Artifacts
+
+* index.html
+* style.css
+* script.js
+
+---
+
+## Dashboard
+
+### Description
+
+The dashboard centralizes the main operational information of the system in a single interface, providing an overview of the production environment. Through visual indicators, charts, and summarized metrics, users can monitor operational performance and quickly identify situations that require attention.
+
+Centralizing this information facilitates decision-making, improves production monitoring, and contributes to more efficient resource management.
+
+After logging in, users are automatically directed to the main dashboard, where they can view key indicators and access the remaining system functionalities.
+
+### Screen Image
+
+### Feature Artifacts
+
+* index.html
+* style.css
+* script.js
+
+---
+
+## User Management
+
+### Description
+
+The user management screen allows administrators to view and manage existing user records. Through this functionality, it is possible to search for registered users, update information, modify permissions, and remove records when necessary.
+
+This tool contributes to maintaining data integrity and ensuring proper platform access control.
+
+The feature is available through the **"Manage Users"** option in the side navigation menu and can only be accessed by users with administrative permissions.
+
+### Screen Image
+
+### Feature Artifacts
+
+* index.html
+* style.css
+* script.js
+
+---
+
+## Machine Registration
+
+### Description
+
+The machine registration feature allows the recording of equipment used in the company's production processes. The stored information makes it possible to identify each machine individually and associate it with activities performed within the system.
+
+Proper registration of these resources contributes to more organized production management and better monitoring of operations.
+
+The administrator must access the **"Register Machines"** option, fill in the required information, and confirm the registration.
+
+This screen enables the registration of production equipment, storing the information required for operational control.
+
+### Screen Image
+
+### Feature Artifacts
+
+* index.html
+* style.css
+* script.js
+
+---
+
+## Machine Management
+
+### Description
+
+The machine management screen consolidates all registered equipment, allowing users to view, update, and remove records. This functionality facilitates the administration of production resources and ensures that information remains updated throughout system usage.
+
+The feature can be accessed through the **"Manage Machines"** option available in the side navigation menu.
+
+### Screen Image
+
+### Feature Artifacts
+
+* index.html
+* style.css
+* script.js
+
+### Access Instructions
+
+The functionality can be accessed through the **"Manage Machines"** option available in the system's side navigation menu.
+
+---
+
+## Order Registration
+
+### Description
+
+The order registration feature allows users to create new production orders by storing the information required for planning and executing manufacturing activities. The recorded data serves as the foundation for tracking customer demands received by the company.
+
+Centralizing this information contributes to better production organization and improved control of ongoing activities.
+
+Users must access the **"Register Orders"** option, fill in the required information, and confirm the production order registration.
+
+### Screen Image
+
+### Feature Artifacts
+
+* index.html
+* style.css
+* script.js
+
+---
+
+## Order Management
+
+### Description
+
+The order management screen allows users to monitor all production orders registered in the system. Through this functionality, authorized users can view detailed information, make updates when necessary, and track the current status of each order.
+
+This feature supports the company's operational control by providing greater visibility into ongoing activities and facilitating production workflow monitoring.
+
+The functionality can be accessed through the **"Manage Orders"** option available in the side navigation menu. Authorized users can view and manage records according to their access permissions.
+
+### Screen Image
+
+### Feature Artifacts
+
+* index.html
+* style.css
+* script.js
+
+---
+
+## Production Monitoring and Control
+
+### Description
+
+This screen allows production operators to view the production queue, identify the priority level of each part, and indicate which part is currently being manufactured. This information is communicated directly to supervisors, improving team coordination throughout the production process.
+
+After interaction with this screen, the collected data is automatically transferred to the reporting module, where production performance and operational information can be analyzed.
+
+The functionality is available after logging in with a **Production Operator** profile. No additional menus or submenus are provided for this user group, as the interface is designed to be simple, direct, and efficient.
+
+### Screen Image
+
+### Feature Artifacts
+
+* homeManufatura_content.html
+* principal_manufatura.css
+* principal_manufatura.js
