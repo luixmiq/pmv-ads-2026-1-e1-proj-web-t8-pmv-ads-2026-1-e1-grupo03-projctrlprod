@@ -1,6 +1,9 @@
 # Programação de Funcionalidades
 
-## Tela de Login
+## Tela de Login 
+
+<h4>Responsavel: Kaique Silveira Sampaio</h4>
+
 Descrição
 
 A tela de login constitui o ponto de entrada do sistema, sendo responsável pela autenticação dos usuários e pelo controle de acesso às funcionalidades da aplicação. Por meio da validação das credenciais informadas, o sistema identifica o perfil do usuário e disponibiliza apenas os recursos compatíveis com suas permissões.
@@ -24,6 +27,8 @@ Ao abrir o sistema, o usuário deve informar seu nome de usuário e senha nos ca
 
 ## Tela de Cadastro de Usuários
 
+<h4>Responsavel: Kaique Silveira Sampaio</h4>
+
 Descrição
 
 A funcionalidade de cadastro de usuários permite a inclusão de novos colaboradores no sistema, garantindo que cada membro da organização possua uma conta individual para acesso à plataforma. Durante o cadastro, são registradas informações essenciais para identificação do usuário e definição de suas permissões de utilização.
@@ -44,6 +49,8 @@ style.css
 script.js
 
 ## Painel de Controle (Dashboard)
+
+<h4>Responsavel: Kaique Silveira Sampaio</h4>
 
 Descrição
 
@@ -66,6 +73,8 @@ script.js
 
 ## Gerenciamento de Usuários
 
+<h4>Responsavel: Kaique Silveira Sampaio</h4>
+
 Descrição
 A tela de gerenciamento de usuários permite consultar e administrar os registros existentes no sistema. Por meio dessa funcionalidade, é possível localizar usuários cadastrados, atualizar informações, alterar permissões e remover registros quando necessário.
 
@@ -85,6 +94,8 @@ style.css
 script.js
 
 ## Cadastro de Máquinas
+
+<h4>Responsavel: Kaique Silveira Sampaio</h4>
 
 Descrição
 
@@ -108,6 +119,8 @@ script.js
 
 
 ## Gerenciamento de Máquinas
+
+<h4>Responsavel: Kaique Silveira Sampaio</h4>
 
 Descrição
 
@@ -133,6 +146,8 @@ A funcionalidade pode ser acessada pela opção "Gerenciar Máquinas" disponíve
 
 ## Cadastro de Pedidos
 
+<h4>Responsavel: Kaique Silveira Sampaio</h4>
+
 ### Descrição
 
 A funcionalidade de cadastro de pedidos permite registrar novas ordens de produção, armazenando informações necessárias para o planejamento e execução das atividades produtivas. Os dados cadastrados servem como base para o acompanhamento das demandas recebidas pela empresa.
@@ -153,10 +168,9 @@ O usuário deve acessar a opção "Cadastrar Pedidos", preencher os dados solici
 * style.css
 * script.js
 
-
----
-
 ## Gerenciamento de Pedidos
+
+<h4>Responsavel: Kaique Silveira Sampaio</h4><h4>Responsavel: Kaique Silveira Sampaio</h4>
 
 ### Descrição
 
