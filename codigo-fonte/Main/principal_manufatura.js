@@ -204,6 +204,12 @@ function PausarPedido(id) {
 
 function FinalizarPedido(id) {
     let EmProducao = localStorage.getItem('EmProducao');
+    let pedidoID = localStorage.getItem('EmProducaoId');
+
+    if(Number(pedidoID) !== Number(id)) {
+        alert("Só é possível finalizar o pedido que está em produção no momento.");
+        return;
+    }
 
     if (EmProducao === 'Rodando') {
         if (confirm("Tem certeza que deseja finalizar a produção")) {
