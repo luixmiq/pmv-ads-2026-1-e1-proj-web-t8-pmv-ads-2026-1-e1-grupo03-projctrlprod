@@ -226,6 +226,8 @@ The use of GitHub Projects has contributed to better activity organization, faci
 
 The figure below presents the Kanban board used by our team to monitor project development and task progress.
 
+<img width="1860" height="845" alt="Image 7 de jun  de 2026, 20_34_41" src="https://github.com/user-attachments/assets/e20ad678-7bae-4ca7-a44f-a6f79d854351" />
+
 ## Labels
 
 To facilitate organization and monitoring within GitHub Projects, we use labels to classify tasks according to their nature. This categorization improves visibility of project demands and assists in distributing activities among team members.
