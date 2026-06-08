@@ -150,3 +150,18 @@ The figures below present some of the screens developed for the system.
 
 Through this approach, it was possible to identify opportunities for improvement, make adjustments in advance, and reduce rework during system development, contributing to the creation of a more intuitive interface aligned with the project's objectives.
 
+<img width="1858" height="846" alt="Image 7 de jun  de 2026, 20_58_47" src="https://github.com/user-attachments/assets/0b6cbdae-f711-4c74-9793-24a50838af95" />
+<img width="1840" height="854" alt="Image 7 de jun  de 2026, 21_06_09" src="https://github.com/user-attachments/assets/30e3420e-b012-432e-9b6a-31737592cc74" />
+<img width="1820" height="864" alt="Image 7 de jun  de 2026, 21_09_40" src="https://github.com/user-attachments/assets/4f15d667-9497-420c-bd61-7384c47079af" />
+<img width="1842" height="854" alt="Image 7 de jun  de 2026, 21_11_45" src="https://github.com/user-attachments/assets/ddcb7222-5cc1-4cc9-b932-37156ee059fb" />
+<img width="1840" height="854" alt="Image 7 de jun  de 2026, 21_14_38" src="https://github.com/user-attachments/assets/e305c53c-c8ae-4336-b34a-70d9a39c6d45" />
+<img width="1851" height="849" alt="Image 7 de jun  de 2026, 21_15_02" src="https://github.com/user-attachments/assets/ad5891bf-5aec-4d55-91c7-aade87fabb4e" />
+<img width="1828" height="860" alt="Image 7 de jun  de 2026, 21_37_45" src="https://github.com/user-attachments/assets/0b6b1fea-5a47-4a4b-9071-bda32b0f00c2" />
+<img width="1852" height="849" alt="Image 7 de jun  de 2026, 21_38_13" src="https://github.com/user-attachments/assets/6e55cd3b-1b33-4bb2-a53f-4a9f0f7fa5f1" />
+<img width="1715" height="917" alt="Image 7 de jun  de 2026, 21_38_48" src="https://github.com/user-attachments/assets/0456c682-7fae-495a-b9c6-c2d33fe2d974" />
+<img width="1672" height="941" alt="Image 7 de jun  de 2026, 21_44_06" src="https://github.com/user-attachments/assets/26fe8e67-c3ee-42cd-923e-7a09e7f98d7c" />
+<img width="1666" height="944" alt="Image 7 de jun  de 2026, 21_39_48" src="https://github.com/user-attachments/assets/451952ef-fc09-4ee7-84c4-681e12e94a8b" />
+<img width="1675" height="939" alt="Image 7 de jun  de 2026, 21_40_07" src="https://github.com/user-attachments/assets/826f2293-59bc-42da-8d5c-a0e0dac0e4fe" />
+<img width="1672" height="941" alt="Image 7 de jun  de 2026, 21_40_31" src="https://github.com/user-attachments/assets/9264adb1-e8a1-4511-9e21-ff02051c22d6" />
+<img width="1678" height="937" alt="Image 7 de jun  de 2026, 21_40_52" src="https://github.com/user-attachments/assets/a5c9a70f-b6ae-4c12-ba13-757ba11a54cf" />
+<img width="1667" height="944" alt="Image 7 de jun  de 2026, 21_41_15" src="https://github.com/user-attachments/assets/7daf2d07-8019-4867-b7c0-161fbb2a14d1" />
