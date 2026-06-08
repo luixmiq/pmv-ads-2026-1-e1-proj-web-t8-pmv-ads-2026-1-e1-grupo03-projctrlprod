@@ -425,8 +425,7 @@ The functionality is available after logging in with a **Production Operator** p
 * homeManufatura_content.html
 * principal_manufatura.css
 * principal_manufatura.js
-
-<img width="1536" height="1024" alt="image 7 de jun  de 2026, 21_57_30" src="https://github.com/user-attachments/assets/ab5d1f33-6ffa-45e5-9947-dec7efd4c4a6" />
+* 
 <img width="1188" height="1324" alt="Image 7 de jun  de 2026, 21_57_59" src="https://github.com/user-attachments/assets/41d192da-9976-450a-ad56-87a2fd55daa1" />
 <img width="1777" height="885" alt="Image 7 de jun  de 2026, 21_58_34" src="https://github.com/user-attachments/assets/6341856f-b0a0-4939-9d2f-de20454bf2a1" />
 <img width="1778" height="885" alt="Image 7 de jun  de 2026, 21_59_12" src="https://github.com/user-attachments/assets/d8cbdc2b-5353-47c6-8a61-6a9f5e3c5ae3" />
