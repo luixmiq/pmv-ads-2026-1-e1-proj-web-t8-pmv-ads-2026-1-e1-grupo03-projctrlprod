@@ -57,6 +57,10 @@ function carregarTela(nomeDaTela) {
                 document.querySelector('.file_70').closest('li').classList.add('active');
                 listarPedidos();
             }
+             else if (nomeDaTela === "dashboard_content") {
+                document.querySelector('.file_80').closest('li').classList.add('active');
+                listarPedidosConcluidos();
+            }
         })
         .catch(err => {
             principal.innerHTML = `<p style="color:red">Erro ao carregar: ${err.message}</p>`;
