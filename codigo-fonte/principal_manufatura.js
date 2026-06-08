@@ -14,7 +14,8 @@ window.onload = function () {
     {
         localStorage.setItem('EmProducao',"Pausado");
     }
-    
+
+
     // Inicia na tela home
     carregarTela('homeManufatura_content');
 }
