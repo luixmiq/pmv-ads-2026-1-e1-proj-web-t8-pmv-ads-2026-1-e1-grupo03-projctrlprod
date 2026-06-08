@@ -7,6 +7,14 @@ window.onload = function () {
     document.getElementById('display-user').innerText = nomeSalvo || 'Convidado';
     document.getElementById('display-category').innerText = catSalva || 'N/A';
 
+    //Sempre inicializa a variavel como pausado;
+    let EmProducao = localStorage.getItem('EmProducao') || "Iniciar";
+
+    if (EmProducao == "Iniciar")
+    {
+        localStorage.setItem('EmProducao',"Pausado");
+    }
+    
     // Inicia na tela home
     carregarTela('homeManufatura_content');
 }
