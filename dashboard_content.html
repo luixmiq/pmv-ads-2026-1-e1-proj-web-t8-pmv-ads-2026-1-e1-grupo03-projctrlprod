@@ -1,0 +1,30 @@
+<div class="lista-wrapper">
+    <header>
+        <h2>✅️ Pedidos concluidos</h2>
+        <p>Visualize os pedidos concluidos para entender o resultado final de produção</p>
+    </header>
+
+    <div class="table-container">
+        <table class="custom-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome produto</th>
+                    <th>Número pedido</th>
+                    <th>Material</th>
+                    <th>Valor fabricação (R$)</th>
+                    <th>Extimativa de tempo (M)</th>
+                    <th>Tempo gasto na produção (M)</th>
+                    <th>Identificação máquina</th>
+                    <th>Resultado final</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-corpo">
+                <!-- Os dados vão aparecer aqui via JS -->
+            </tbody>
+        </table>
+    </div>
+
+  <div>
+    <button id="BtnAtualizar" name="button" onclick="listarPedidosConcluidos()">Atualizar tabela</button>
+  </div>
