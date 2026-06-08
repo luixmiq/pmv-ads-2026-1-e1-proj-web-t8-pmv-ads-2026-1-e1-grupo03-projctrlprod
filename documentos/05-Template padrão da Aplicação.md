@@ -70,6 +70,8 @@ To ensure a consistent user experience, we adopted a standard interface layout t
 
 The application structure consists of the following elements:
 
+<img width="1536" height="1024" alt="image 7 de jun  de 2026, 21_57_30" src="https://github.com/user-attachments/assets/ab5d1f33-6ffa-45e5-9947-dec7efd4c4a6" />
+
 ### Top Bar (Header)
 
 Located at the top of the application, the header displays the system identity, authenticated user information, and options related to the user account and session.
