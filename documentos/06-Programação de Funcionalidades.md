@@ -192,6 +192,30 @@ Imagem da Tela
 * style.css
 * script.js
 
+
+## Acompanhamento e controle de pedidos concluidos
+
+<h4>Responsavel: Kaique Silveira Sampaio</h4>
+
+### Descrição
+
+A tela onde o gestor responsável pela administração da empresa pode ver a fila de peças já finalizadas, com o tempo extimado de produção e o tempo real gasto e um status final de lucro ou prejuizo, melhorando a comunicação do time e mais acerto na hora de criar orçamentos.
+
+<h3>Instruções de Acesso</h3>
+
+A funcionalidade pode ser acessada após fazer login com a categoria de administrador, no menu esquerdo e opção Dashboard.
+
+Imagem da Tela
+
+<img width="1920" height="952" alt="Capturar8" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-grupo03-projctrlprod/refs/heads/main/documentos/img/Capturar8.png"/>
+
+ Artefatos da Funcionalidade
+
+* dashboard_content.html
+* principal.css
+* principal.js
+
+
 ## Acompanhamento e controle de produção
 
 <h4>Responsavel: Kaique Silveira Sampaio</h4>
