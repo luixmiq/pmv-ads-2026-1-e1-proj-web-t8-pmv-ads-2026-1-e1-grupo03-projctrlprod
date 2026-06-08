@@ -252,6 +252,8 @@ When starting the application, users must enter their username and password in t
 
 ### Screen Image
 
+<img width="1188" height="1324" alt="Image 7 de jun  de 2026, 21_57_59" src="https://github.com/user-attachments/assets/41d192da-9976-450a-ad56-87a2fd55daa1" />
+
 ### Feature Artifacts
 
 * index.html
@@ -276,13 +278,13 @@ The administrator must access the **"Register Users"** option in the side naviga
 
 ### Screen Image
 
+<img width="1777" height="885" alt="Image 7 de jun  de 2026, 21_58_34" src="https://github.com/user-attachments/assets/6341856f-b0a0-4939-9d2f-de20454bf2a1" />
+
 ### Feature Artifacts
 
 * index.html
 * style.css
 * script.js
-
----
 
 ## Dashboard
 
@@ -296,143 +298,85 @@ After logging in, users are automatically directed to the main dashboard, where 
 
 ### Screen Image
 
+<img width="1778" height="885" alt="Image 7 de jun  de 2026, 21_59_12" src="https://github.com/user-attachments/assets/d8cbdc2b-5353-47c6-8a61-6a9f5e3c5ae3" />
+
 ### Feature Artifacts
 
 * index.html
 * style.css
 * script.js
-
----
 
 ## User Management
+<p>Responsible: Kaique Silveira Sampaio</p>
+Description: The user management screen allows you to view and manage existing records in the system. Through this functionality, it is possible to locate registered users, update information, change permissions, and remove records when necessary.
 
-### Description
+This tool contributes to maintaining data integrity and to the proper control of access to the platform.
 
-The user management screen allows administrators to view and manage existing user records. Through this functionality, it is possible to search for registered users, update information, modify permissions, and remove records when necessary.
+Access Instructions
+The functionality is available in the "Manage Users" option of the side menu and can be used by users with administrative permissions.
 
-This tool contributes to maintaining data integrity and ensuring proper platform access control.
-
-The feature is available through the **"Manage Users"** option in the side navigation menu and can only be accessed by users with administrative permissions.
-
-### Screen Image
-
-### Feature Artifacts
-
-* index.html
-* style.css
-* script.js
-
----
-
+Screen Image
+<img width="1777" height="885" alt="Image 7 de jun  de 2026, 22_02_13" src="https://github.com/user-attachments/assets/58e6b774-f389-4204-bf54-4db24f0a9275" />
 ## Machine Registration
+<p>Responsible: Kaique Silveira Sampaio<p>
+Description
 
-### Description
+The machine registration functionality allows you to register the equipment used in the company's production processes. The stored information allows you to identify each machine individually and associate it with the activities performed within the system.
 
-The machine registration feature allows the recording of equipment used in the company's production processes. The stored information makes it possible to identify each machine individually and associate it with activities performed within the system.
+Proper registration of these resources contributes to more organized production management and monitoring of operations performed.
 
-Proper registration of these resources contributes to more organized production management and better monitoring of operations.
+Access Instructions
+The administrator must access the "Register Machines" option, fill in the requested data, and confirm the registration. The machine registration screen allows you to register the equipment used in production, storing information necessary for operational control.
 
-The administrator must access the **"Register Machines"** option, fill in the required information, and confirm the registration.
+## Access Instructions
+The functionality can be accessed via the "Manage Machines" option available in the system's side menu.
 
-This screen enables the registration of production equipment, storing the information required for operational control.
-
-### Screen Image
-
-### Feature Artifacts
-
-* index.html
-* style.css
-* script.js
-
----
-
+Screen Image
+<img width="1719" height="915" alt="Image 7 de jun  de 2026, 22_02_38" src="https://github.com/user-attachments/assets/6e047dd5-8cfc-4928-acc4-a67ac560d3d9" />
 ## Machine Management
+<p>Responsible: Kaique Silveira Sampaio</p>
+Description
 
-### Description
+The machine management screen brings together all registered equipment, allowing for its consultation, updating, and removal. This functionality facilitates the administration of productive resources and ensures that information remains up-to-date throughout the system's use.
 
-The machine management screen consolidates all registered equipment, allowing users to view, update, and remove records. This functionality facilitates the administration of production resources and ensures that information remains updated throughout system usage.
+Access Instructions
+The functionality can be accessed through the "Manage Machines" option in the system's side menu.
 
-The feature can be accessed through the **"Manage Machines"** option available in the side navigation menu.
-
-### Screen Image
-
-### Feature Artifacts
-
-* index.html
-* style.css
-* script.js
-
-### Access Instructions
-
-The functionality can be accessed through the **"Manage Machines"** option available in the system's side navigation menu.
-
----
-
+Screen Image
+<img width="1776" height="886" alt="Image 7 de jun  de 2026, 22_03_20" src="https://github.com/user-attachments/assets/bff99112-c798-4b56-a56f-4998cef8c485" />
 ## Order Registration
+<p>Responsible: Kaique Silveira Sampaio</p>
+Description
+The order registration functionality allows you to register new production orders, storing information necessary for planning and executing production activities. The registered data serves as a basis for monitoring the demands received by the company.
 
-### Description
+The centralization of this information contributes to better production organization and control of ongoing activities.
 
-The order registration feature allows users to create new production orders by storing the information required for planning and executing manufacturing activities. The recorded data serves as the foundation for tracking customer demands received by the company.
+Access Instructions
+The user must access the "Register Orders" option, fill in the requested data, and confirm the registration of the production order.
 
-Centralizing this information contributes to better production organization and improved control of ongoing activities.
-
-Users must access the **"Register Orders"** option, fill in the required information, and confirm the production order registration.
-
-### Screen Image
-
-### Feature Artifacts
-
-* index.html
-* style.css
-* script.js
-
----
+Screenshot
+<img width="1778" height="885" alt="Image 7 de jun  de 2026, 22_03_42" src="https://github.com/user-attachments/assets/90311c3e-9b5c-4c98-a821-fea4d348ee59" />
 
 ## Order Management
+<p>Responsible: Kaique Silveira Sampaio</p>
+Description
+The order management screen allows you to track all production orders registered in the system. Through this functionality, authorized users can consult detailed information, make changes when necessary, and monitor the current status of each order.
 
-### Description
+This functionality assists in the company's operational control, providing greater visibility over ongoing activities and facilitating the monitoring of the production flow.
 
-The order management screen allows users to monitor all production orders registered in the system. Through this functionality, authorized users can view detailed information, make updates when necessary, and track the current status of each order.
+Access Instructions
+The functionality can be accessed through the "Manage Orders" option in the side menu. Authorized users can view and manage records according to their access permissions.
 
-This feature supports the company's operational control by providing greater visibility into ongoing activities and facilitating production workflow monitoring.
-
-The functionality can be accessed through the **"Manage Orders"** option available in the side navigation menu. Authorized users can view and manage records according to their access permissions.
-
-### Screen Image
-
-### Feature Artifacts
-
-* index.html
-* style.css
-* script.js
-
----
-
-## Production Monitoring and Control
-
-### Description
-
-This screen allows production operators to view the production queue, identify the priority level of each part, and indicate which part is currently being manufactured. This information is communicated directly to supervisors, improving team coordination throughout the production process.
-
-After interaction with this screen, the collected data is automatically transferred to the reporting module, where production performance and operational information can be analyzed.
-
-The functionality is available after logging in with a **Production Operator** profile. No additional menus or submenus are provided for this user group, as the interface is designed to be simple, direct, and efficient.
-
-### Screen Image
-
-### Feature Artifacts
-
-* homeManufatura_content.html
-* principal_manufatura.css
-* principal_manufatura.js
-* 
-<img width="1188" height="1324" alt="Image 7 de jun  de 2026, 21_57_59" src="https://github.com/user-attachments/assets/41d192da-9976-450a-ad56-87a2fd55daa1" />
-<img width="1777" height="885" alt="Image 7 de jun  de 2026, 21_58_34" src="https://github.com/user-attachments/assets/6341856f-b0a0-4939-9d2f-de20454bf2a1" />
-<img width="1778" height="885" alt="Image 7 de jun  de 2026, 21_59_12" src="https://github.com/user-attachments/assets/d8cbdc2b-5353-47c6-8a61-6a9f5e3c5ae3" />
-<img width="1778" height="885" alt="Image 7 de jun  de 2026, 22_01_47" src="https://github.com/user-attachments/assets/99b36b41-7ff0-4f8e-9932-361a8e6b95e9" />
-<img width="1777" height="885" alt="Image 7 de jun  de 2026, 22_02_13" src="https://github.com/user-attachments/assets/58e6b774-f389-4204-bf54-4db24f0a9275" />
-<img width="1719" height="915" alt="Image 7 de jun  de 2026, 22_02_38" src="https://github.com/user-attachments/assets/6e047dd5-8cfc-4928-acc4-a67ac560d3d9" />
-<img width="1776" height="886" alt="Image 7 de jun  de 2026, 22_03_20" src="https://github.com/user-attachments/assets/bff99112-c798-4b56-a56f-4998cef8c485" />
-<img width="1778" height="885" alt="Image 7 de jun  de 2026, 22_03_42" src="https://github.com/user-attachments/assets/90311c3e-9b5c-4c98-a821-fea4d348ee59" />
+Screen Image
 <img width="1780" height="884" alt="Image 7 de jun  de 2026, 22_04_21" src="https://github.com/user-attachments/assets/004e844b-c7a9-4c8a-bbce-7080b9d004fd" />
-=<img width="1804" height="872" alt="Image 7 de jun  de 2026, 22_05_09" src="https://github.com/user-attachments/assets/99a62e10-4fa1-4a13-95ad-7cbbe6f0d741" />
+
+## Monitoring and Controlling Completed Orders
+<p>Responsible: Kaique Silveira Sampaio</p>
+Description
+This screen allows the manager responsible for company administration to view the queue of completed parts, including estimated production time, actual time spent, and a final profit or loss status. This improves team communication and ensures more accurate budget creation.
+
+Access Instructions
+The functionality can be accessed after logging in with administrator privileges, via the left-hand menu and the Dashboard option.
+
+Screen Image
+<img width="1804" height="872" alt="Image 7 de jun  de 2026, 22_05_09" src="https://github.com/user-attachments/assets/99a62e10-4fa1-4a13-95ad-7cbbe6f0d741" />

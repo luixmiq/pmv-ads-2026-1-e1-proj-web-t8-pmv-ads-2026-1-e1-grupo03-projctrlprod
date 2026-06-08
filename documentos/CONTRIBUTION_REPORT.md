@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 08/06/2026 02:05
+**Última atualização:** 08/06/2026 02:22
 
 ---
 
@@ -9,17 +9,17 @@
 | Aluno                 |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
 |-----------------------|-----------|-----------|-----------|------------|----------------|-----------------|
 | Gustavo               |        12 |       582 |         0 |          8 |             12 |               3 |
-| Luix_SD               |        61 |      4262 |      1645 |         57 |             21 |               3 |
-| UAFAC                 |        41 |      4873 |      4986 |         65 |             29 |               3 |
+| Luix_SD               |        64 |      4262 |      1645 |         58 |             22 |               3 |
+| UAFAC                 |        42 |      4873 |      4986 |         84 |             29 |               3 |
 | clovisbd              |         1 |         5 |         0 |          1 |              0 |               0 |
-| github-actions[bot]   |        21 |       281 |       101 |          3 |             21 |               1 |
+| github-actions[bot]   |        22 |       346 |       101 |          3 |             22 |               1 |
 | github-classroom[bot] |         1 |       774 |         0 |         19 |              1 |               3 |
-| kaiqueGabriel-555     |        19 |       510 |       166 |          8 |             18 |               2 |
+| kaiqueGabriel-555     |        20 |       564 |       276 |          8 |             19 |               2 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-06-01**: Gustavo: 12, Luix_SD: 17, UAFAC: 18, github-actions[bot]: 3, kaiqueGabriel-555: 18
+**2026-06-01**: Gustavo: 12, Luix_SD: 20, UAFAC: 19, github-actions[bot]: 4, kaiqueGabriel-555: 19
 
 **2026-05-25**: Luix_SD: 11, github-actions[bot]: 9, kaiqueGabriel-555: 1
 
