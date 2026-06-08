@@ -35,11 +35,11 @@ document.getElementById('BtnLogin').addEventListener('click', function(event) {
         // Redireciona
         if (usuarioEncontrado.categoria === "Administrador")
         {
-            window.location.href = "./Main/principal.html";
+            window.location.href = "principal.html";
         }
         else
         {
-            window.location.href = "./Main/principal_manufatura.html";
+            window.location.href = "principal_manufatura.html";
         }
 
     } else {
