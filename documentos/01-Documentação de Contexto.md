@@ -23,6 +23,35 @@
 
 ## Público-alvo
 
+# Introduction
+
+Machining is one of the fundamental processes in modern industry, being responsible for the manufacturing and finishing of parts with high precision. For companies involved in maintenance, production, or component manufacturing, efficient control of machining activities is essential to ensure product quality, reduce material waste, and optimize production time.
+
+In this context, the development of a machining management system emerges as a technological solution capable of organizing and managing important information such as work orders, customer records, production flow control, materials used, and monitoring of manufacturing processes. The absence of a structured system can lead to errors, rework, data loss, and difficulties in decision-making.
+
+## Problem
+
+Today, companies in the machining industry estimate the manufacturing time of a part based on assumptions. In other words, there is no reliable metric to accurately determine how many machine hours will actually be spent during the process. As a result, while profits may be generated, losses can also occur.
+
+Our software aims to show exactly how many hours were spent producing a specific part. In the first version, there is no need for charts, monthly reports, or weekly analyses. The primary requirement is to allow the customer to compare the estimated manufacturing time of a part (for example, Part 001 estimated at 2 hours) with the actual production time spent.
+
+## Objectives
+
+Our objective is to create a simple interface with two access points. One will be used by administrative staff to register the products that will be manufactured, and the other will be used by machinists who operate lathes or CNC machines. This way, administrative personnel can monitor the time spent manufacturing each part, while machinists follow a production queue previously created by the administrative department.
+
+## Justification
+
+According to data collected by the “Brasil Mais Produtivo” initiative, companies that joined the program and implemented its digitalization and management control methods achieved an average productivity increase of 27%. In addition, according to the National Confederation of Industry (CNI), approximately 48% of business investments in 2026 will focus on improving production processes.
+
+Therefore, considering the current economic scenario faced by small industrial companies in Brazil, we recognize that digitalization and improved management of production processes are necessary developments for the sector, which our software aims to provide.
+
+## Target Audience
+
+The system’s target audience consists primarily of small machining companies, which typically employ between 1 and 8 workers. In this context, the software was developed to provide greater control over production activities, facilitate process monitoring, and deliver more accurate information for decision-making.
+
+The solution is expected to be used daily by both machinists responsible for manufacturing parts and managers responsible for supervising production. In this way, the system will contribute to operational monitoring, increased production efficiency, and improved quality control.
+
+
   O público-alvo do sistema é composto principalmente por empresas de pequeno porte do setor de usinagem, que geralmente possuem entre 1 e 8 colaboradores. Nesse contexto, o software foi desenvolvido para proporcionar maior controle das atividades produtivas, facilitar o acompanhamento dos processos e fornecer informações mais precisas para a tomada de decisões.
   
   Espera-se que a solução seja utilizada diariamente tanto pelos torneiros mecânicos responsáveis pela fabricação das peças quanto pelos gestores encarregados da supervisão da produção. Dessa forma, o sistema contribuirá para o monitoramento das operações, o aumento da eficiência produtiva e o aprimoramento do controle de qualidade.

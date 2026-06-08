@@ -44,3 +44,40 @@ A aplicação desenvolvida está disponível na web e pode ser acessada <a href=
 # Apresentação
 
 * <a href="apresentacao/README.md">Apresentação do Projeto</a>
+
+
+# Machining Product Registration and Control
+
+**Systems Analysis and Development – PUC Minas**
+
+**Front-End Web Application Development**
+
+**1st Semester / 2026**
+
+Our system was developed as a technological solution capable of organizing and managing work orders, customer records, and the control of parts and materials, making it essential for ensuring quality, reducing costs, and optimizing production time.
+
+## Team Members
+
+*(Insert team members here.)*
+
+## Advisor
+
+**Clóvis Lemos Tavares**
+
+# Documentation
+
+*(Project documentation can be inserted in this section.)*
+
+# Deployment
+
+The developed application is available on the web and can be accessed **here**:
+
+https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-grupo03-projctrlprod/index.html
+
+# Source Code
+
+* Source Code
+
+# Presentation
+
+* Project Presentation

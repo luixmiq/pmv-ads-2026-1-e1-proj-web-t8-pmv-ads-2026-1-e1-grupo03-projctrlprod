@@ -139,3 +139,139 @@ A organização das atividades é realizada por meio do GitHub Projects, utiliza
 <h3>Organização dos Arquivos</h3>
 
 Os arquivos relacionados ao desenvolvimento do sistema são armazenados e organizados no repositório GitHub do projeto. Essa estrutura permite centralizar o código-fonte, a documentação e demais artefatos produzidos durante o desenvolvimento, facilitando a manutenção e o acesso às informações por todos os membros da equipe.
+
+# Methodology
+
+The project was developed using the Scrum agile methodology, with activities divided into weekly sprints. Tasks were organized and monitored through GitHub Projects, allowing control over implemented features and completed corrections.
+
+## Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+* Figma
+* Git and GitHub
+* Visual Studio Code
+
+## Development Process
+
+1. System requirements gathering
+2. Interface prototype development
+3. Feature implementation
+4. Testing and bug fixing
+5. System deployment and documentation
+
+# Project Management
+
+The agile methodology chosen for the development of this project was Scrum, as it provides better organization of activities, continuous progress monitoring, and collaboration among team members. As highlighted by Amaral, Fleury, and Isoni (2019, p. 68), its benefits include a “clear vision of the results to be delivered; the pace and discipline required for execution; definition of project roles and responsibilities (Scrum Owner, Scrum Master, and Team); empowerment of project team members to achieve objectives; distributed and collaboratively shared knowledge; and an environment that encourages criticism of ideas rather than people.”
+
+The team adopted Scrum principles to organize development activities, define responsibilities, and monitor the system’s evolution throughout the project stages.
+
+## Role Distribution
+
+The team uses Scrum as the foundation for defining the development process. Responsibilities are distributed as follows:
+
+### Scrum Master
+
+#### Gustavo Henrique Carvalho Ferreira
+
+Responsible for ensuring the proper application of Scrum practices, conducting Scrum ceremonies, and assisting in the removal of obstacles that may impact project development.
+
+### Product Owner
+
+#### Kaique Silveira Sampaio
+
+Responsible for managing and prioritizing system requirements, ensuring that developed features align with project needs.
+
+### Development Team
+
+* Gustavo Henrique Carvalho Ferreira
+* João Lucas Piza Silva
+* Kaique Silveira
+* Kaique Gabriel da Silva Paiva
+* Luiz Miguel de Lira Sá
+
+### Design Team
+
+#### João Lucas Piza Silva
+
+Responsible for designing the interface intended for production operators, prioritizing simplicity and usability.
+
+#### Kaique Gabriel da Silva Paiva
+
+Responsible for designing the administrative dashboard and organizing management information.
+
+#### Luiz Miguel de Lira Sá
+
+Responsible for adapting the interface for different devices, ensuring system responsiveness according to the defined non-functional requirements.
+
+## Process
+
+We use GitHub Projects as the main tool to organize and monitor project development. Through it, we can register tasks, track feature progress, and visualize the status of each development stage.
+
+We adopted Scrum principles to organize our workflow. At the beginning of each phase, we analyze and prioritize the activities to be developed, distributing them among team members according to their responsibilities and areas of expertise.
+
+Throughout development, we keep the Kanban board constantly updated, allowing all team members to monitor task progress in real time. We also hold regular meetings to align objectives, discuss challenges encountered, and define the next project steps.
+
+The use of GitHub Projects has contributed to better activity organization, facilitating communication among team members, monitoring deliverables, and identifying possible development obstacles.
+
+### Kanban Board Columns
+
+* **Backlog:** Represents the Product Backlog and contains project tasks to be worked on. Any activities identified during the project should also be added to this list.
+* **To Do:** Represents the Sprint Backlog, containing tasks planned for the current stage. These tasks are defined and assigned at the beginning of each phase.
+* **In Progress:** Represents tasks currently under development. Once a team member starts a task, it is moved from To Do to In Progress.
+* **Ready to Test:** Represents completed tasks awaiting testing. Once a task is finished, it is moved to this column.
+* **Testing:** Represents tasks under review and testing. A designated team member reviews or tests the task and records the results. If improvements are required, the developer updates the task before moving it to Done.
+* **Done:** Represents completed tasks that have passed testing, incorporated feedback, and are ready for delivery.
+
+The figure below presents the Kanban board used by our team to monitor project development and task progress.
+
+<img width="1860" height="845" alt="Image 7 de jun  de 2026, 20_34_41" src="https://github.com/user-attachments/assets/e20ad678-7bae-4ca7-a44f-a6f79d854351" />
+
+## Labels
+
+To facilitate organization and monitoring within GitHub Projects, we use labels to classify tasks according to their nature. This categorization improves visibility of project demands and assists in distributing activities among team members.
+
+* **Bug:** Used to identify errors, failures, or unexpected system behavior.
+* **Development:** Used for tasks related to implementing software features and improvements.
+* **Documentation:** Used for tasks related to creating and updating project documentation.
+* **Project Management:** Used for planning, organizing, monitoring, and controlling project activities.
+* **Testing:** Used for validation, review, and verification of implemented features.
+
+The use of these labels contributes to better Kanban board organization and facilitates monitoring project progress throughout development.
+
+## Tools
+
+For the development of the machining control system, the team selected a set of tools that support collaborative work and asynchronous organization.
+
+| ENVIRONMENT            | PLATFORM        | ACCESS LINK       |
+| ---------------------- | --------------- | ----------------- |
+| Source Code Repository | GitHub          | Repository URL    |
+| Project Documentation  | GitHub          | Documentation URL |
+| Interface Design       | Figma           | Figma URL         |
+| Project Management     | GitHub Projects | Project Board URL |
+| Hosting                | GitHub Pages    | Hosting URL       |
+
+## Coding Organization Strategy
+
+To ensure organization and quality throughout project development, we defined a work strategy based on tools that support implementation, documentation, and activity management.
+
+### Development Environment
+
+We use Visual Studio Code as the primary development environment due to its practicality and compatibility with the technologies adopted in the project. The system is developed using HTML5, CSS3, and JavaScript, following the functional and non-functional requirements defined during planning.
+
+### Code and Documentation Management
+
+GitHub serves as the project's central repository, enabling source code versioning, documentation storage, and tracking of changes made by team members. This approach helps maintain file integrity and facilitates collaborative work.
+
+### Interface Design
+
+We use Figma to create system screen prototypes before implementation. This step allows validation of interface organization and contributes to a better user experience for both operators and administrators.
+
+### Team Management
+
+Activities are organized through GitHub Projects using a Kanban board to monitor task progress. Communication among team members takes place through tools such as WhatsApp and Microsoft Teams, which are used for alignment meetings, technical discussions, and monitoring activities planned under the Scrum methodology.
+
+### File Organization
+
+Files related to system development are stored and organized within the project's GitHub repository. This structure centralizes source code, documentation, and other project artifacts, facilitating maintenance and providing easy access to information for all team members.

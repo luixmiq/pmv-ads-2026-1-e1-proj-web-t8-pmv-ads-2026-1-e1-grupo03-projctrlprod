@@ -1,0 +1,30 @@
+<div class="cadastro-wrapper">
+    <form class="cadastro-form">
+        <header>
+          <h2>➕ Nova Máquina</h2>
+          <p>Preencha os dados abaixo para cadastrar no sistema</p>
+        </header>
+
+        <div class="input-group">
+          <label>Nome ou marca</label>
+          <input type="text" id="name" placeholder="Ex: Mazak">
+        </div>
+
+        <div class="input-group">
+          <label for="Cat">Categoria</label>
+          <select id="Cat" name="Cat" class="custom-select">
+            <option value="" disabled selected>Selecione uma categoria...</option>
+            <option value="Fresa_Manual">🛠️ Fresa - Manual</option>
+            <option value="Fresa_CNC">🛠️ Fresa - CNC</option>
+            <option value="Torno_Manual">🛠️ Torno - Manual</option>
+            <option value="Torno-CNC">🛠️ Torno - CNC</option>
+          </select>
+        </div>
+
+        <button type="button" id="BtnCadastrar" onclick="CadastrarMaquina()">Cadastrar</button>
+
+        <footer class="form-footer">
+          <p>© 2026 UsinagensPro V1.0</p>
+        </footer>
+    </form>
+</div>
