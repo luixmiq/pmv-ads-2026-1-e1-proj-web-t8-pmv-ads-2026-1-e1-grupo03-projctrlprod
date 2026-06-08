@@ -425,3 +425,15 @@ The functionality is available after logging in with a **Production Operator** p
 * homeManufatura_content.html
 * principal_manufatura.css
 * principal_manufatura.js
+
+<img width="1536" height="1024" alt="image 7 de jun  de 2026, 21_57_30" src="https://github.com/user-attachments/assets/ab5d1f33-6ffa-45e5-9947-dec7efd4c4a6" />
+<img width="1188" height="1324" alt="Image 7 de jun  de 2026, 21_57_59" src="https://github.com/user-attachments/assets/41d192da-9976-450a-ad56-87a2fd55daa1" />
+<img width="1777" height="885" alt="Image 7 de jun  de 2026, 21_58_34" src="https://github.com/user-attachments/assets/6341856f-b0a0-4939-9d2f-de20454bf2a1" />
+<img width="1778" height="885" alt="Image 7 de jun  de 2026, 21_59_12" src="https://github.com/user-attachments/assets/d8cbdc2b-5353-47c6-8a61-6a9f5e3c5ae3" />
+<img width="1778" height="885" alt="Image 7 de jun  de 2026, 22_01_47" src="https://github.com/user-attachments/assets/99b36b41-7ff0-4f8e-9932-361a8e6b95e9" />
+<img width="1777" height="885" alt="Image 7 de jun  de 2026, 22_02_13" src="https://github.com/user-attachments/assets/58e6b774-f389-4204-bf54-4db24f0a9275" />
+<img width="1719" height="915" alt="Image 7 de jun  de 2026, 22_02_38" src="https://github.com/user-attachments/assets/6e047dd5-8cfc-4928-acc4-a67ac560d3d9" />
+<img width="1776" height="886" alt="Image 7 de jun  de 2026, 22_03_20" src="https://github.com/user-attachments/assets/bff99112-c798-4b56-a56f-4998cef8c485" />
+<img width="1778" height="885" alt="Image 7 de jun  de 2026, 22_03_42" src="https://github.com/user-attachments/assets/90311c3e-9b5c-4c98-a821-fea4d348ee59" />
+<img width="1780" height="884" alt="Image 7 de jun  de 2026, 22_04_21" src="https://github.com/user-attachments/assets/004e844b-c7a9-4c8a-bbce-7080b9d004fd" />
+=<img width="1804" height="872" alt="Image 7 de jun  de 2026, 22_05_09" src="https://github.com/user-attachments/assets/99a62e10-4fa1-4a13-95ad-7cbbe6f0d741" />
