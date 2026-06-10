@@ -35,7 +35,7 @@ Clóvis Lemos Tavares
 
 # Hospedagem
 
-A aplicação desenvolvida está disponível na web e pode ser acessada <a href=https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-grupo03-projctrlprod/index.html> aqui</a>.
+A aplicação desenvolvida está disponível na web e pode ser acessada <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2026-1-e1-proj-web-t8-pmv-ads-2026-1-e1-grupo03-projctrlprod/index.html"> aqui</a>.
 
 # Código-Fonte
 
