@@ -298,48 +298,48 @@ dialog::backdrop {
 
 /* ---------- MOBILE (até 768px) ---------- */
 @media (max-width: 768px) {
- 
+
     body, html {
         overflow: auto;
         height: auto;
     }
- 
+
     /* Navbar compacta */
     .navbar {
         height: 52px;
         padding: 0 16px;
     }
- 
+
     .logo {
         font-size: 0.95rem;
     }
- 
+
     /* Sem sidebar nesta tela — só ajusta o container */
     .app-container {
         flex-direction: column;
         height: auto;
     }
- 
+
     /* Conteúdo ocupa tela inteira com padding menor */
     .content {
         padding: 20px 16px;
         overflow-y: visible;
     }
- 
+
     header h1 {
         font-size: 1.35rem;
     }
- 
+
     header p {
         margin-bottom: 20px;
     }
- 
+
     /* Cards em coluna única */
     .cards {
         grid-template-columns: 1fr;
         gap: 16px;
     }
- 
+
     /* Tabela de produção com scroll horizontal
        (muitas colunas: ID, nome, material, urgência, máquina,
         controle, início, pausa, fim, cronômetro) */
@@ -349,14 +349,14 @@ dialog::backdrop {
         padding: 12px;
         margin-top: 20px;
     }
- 
+
     .custom-table th,
     .custom-table td {
         padding: 8px 6px;
         font-size: 0.78rem;
         white-space: nowrap;
     }
- 
+
     /* Botões de controle de produção menores */
     .btn-iniciar,
     .btn-pausar,
@@ -364,14 +364,14 @@ dialog::backdrop {
         padding: 6px 8px;
         font-size: 0.85rem;
     }
- 
+
     /* Botão atualizar: largura total */
     #BtnAtualizar {
         width: 100%;
         margin-top: 16px;
         padding: 12px;
     }
- 
+
     /* Dialog ocupa quase toda a tela */
     dialog {
         width: 95vw;
@@ -384,4 +384,3 @@ dialog::backdrop {
         transform: translate(-50%, -50%);
     }
 }
- 

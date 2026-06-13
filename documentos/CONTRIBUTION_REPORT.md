@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 08/06/2026 02:22
+**Última atualização:** 13/06/2026 16:41
 
 ---
 
@@ -9,33 +9,35 @@
 | Aluno                 |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
 |-----------------------|-----------|-----------|-----------|------------|----------------|-----------------|
 | Gustavo               |        12 |       582 |         0 |          8 |             12 |               3 |
-| Luix_SD               |        64 |      4262 |      1645 |         58 |             22 |               3 |
-| UAFAC                 |        42 |      4873 |      4986 |         84 |             29 |               3 |
+| Luix_SD               |        73 |      4545 |      1691 |         60 |             23 |               3 |
+| UAFAC                 |        44 |      7208 |      7561 |        102 |             29 |               3 |
 | clovisbd              |         1 |         5 |         0 |          1 |              0 |               0 |
-| github-actions[bot]   |        22 |       346 |       101 |          3 |             22 |               1 |
+| github-actions[bot]   |        23 |       360 |       115 |          3 |             23 |               1 |
 | github-classroom[bot] |         1 |       774 |         0 |         19 |              1 |               3 |
 | kaiqueGabriel-555     |        20 |       564 |       276 |          8 |             19 |               2 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-06-01**: Gustavo: 12, Luix_SD: 20, UAFAC: 19, github-actions[bot]: 4, kaiqueGabriel-555: 19
+**2026-06-06**: Gustavo: 12, Luix_SD: 20, UAFAC: 21, github-actions[bot]: 3, kaiqueGabriel-555: 7
 
-**2026-05-25**: Luix_SD: 11, github-actions[bot]: 9, kaiqueGabriel-555: 1
+**2026-05-30**: Luix_SD: 9, github-actions[bot]: 2, kaiqueGabriel-555: 12
 
-**2026-05-18**: github-actions[bot]: 1
+**2026-05-23**: Luix_SD: 11, github-actions[bot]: 9, kaiqueGabriel-555: 1
 
-**2026-05-11**: Luix_SD: 1, github-actions[bot]: 1
+**2026-05-16**: github-actions[bot]: 1
 
-**2026-05-04**: Luix_SD: 28, clovisbd: 1, github-actions[bot]: 7
+**2026-05-09**: Luix_SD: 1, github-actions[bot]: 1
 
-**2026-04-27**: Luix_SD: 4
+**2026-05-02**: Luix_SD: 28, clovisbd: 1, github-actions[bot]: 7
 
-**2026-04-13**: UAFAC: 17
+**2026-04-25**: Luix_SD: 4
 
-**2026-04-06**: UAFAC: 6
+**2026-04-11**: UAFAC: 17
 
-**2026-03-23**: github-classroom[bot]: 1
+**2026-04-04**: UAFAC: 6
+
+**2026-03-21**: github-classroom[bot]: 1
 
 
 

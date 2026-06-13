@@ -314,7 +314,6 @@ header p { color: #64748b; margin-bottom: 40px; }
     border: none;
     padding: 6px 12px;
     border-radius: 6px;
-    margin: 2px 0;
     cursor: pointer;
     font-weight: 600;
 }
@@ -324,7 +323,6 @@ header p { color: #64748b; margin-bottom: 40px; }
     color: #ef4444;
     border: none;
     padding: 6px 12px;
-    margin: 2px 0;
     border-radius: 6px;
     cursor: pointer;
     font-weight: 600;
@@ -358,29 +356,29 @@ dialog::backdrop {
 
 /* ---------- MOBILE (até 768px) ---------- */
 @media (max-width: 768px) {
- 
+
     /* overflow volta a auto para permitir scroll da página inteira */
     body, html {
         overflow: auto;
         height: auto;
     }
- 
+
     /* Navbar compacta */
     .navbar {
         height: 52px;
         padding: 0 16px;
     }
- 
+
     .logo {
         font-size: 0.95rem;
     }
- 
+
     /* Layout empilhado: sidebar vai para cima do conteúdo */
     .app-container {
         flex-direction: column;
         height: auto;
     }
- 
+
     /* Sidebar vira uma barra horizontal de navegação no topo */
     .sidebar {
         width: 100%;
@@ -388,11 +386,11 @@ dialog::backdrop {
         border-right: none;
         border-bottom: 1px solid var(--border-color);
     }
- 
+
     .sidebar h3 {
         display: none; /* Esconde o título "Arvore do projeto" */
     }
- 
+
     /* Itens do menu em linha horizontal com scroll */
     .project-tree {
         display: flex;
@@ -404,7 +402,7 @@ dialog::backdrop {
         white-space: nowrap;
         list-style: none;
     }
- 
+
     .project-tree li {
         padding: 8px 14px;
         border-left: none;
@@ -413,18 +411,18 @@ dialog::backdrop {
         flex-shrink: 0;
         font-size: 0.8rem;
     }
- 
+
     .project-tree li.active {
         border-left: none;
         border-bottom: 3px solid var(--accent);
     }
- 
+
     /* Conteúdo principal ocupa toda a tela */
     .content {
         padding: 20px 16px;
         overflow-y: visible;
     }
- 
+
     /* Header da tela: título e botão empilhados */
     .content header,
     .lista-wrapper header {
@@ -433,49 +431,49 @@ dialog::backdrop {
         gap: 12px;
         margin-bottom: 20px;
     }
- 
+
     header h1 {
         font-size: 1.35rem;
     }
- 
+
     /* Cards em coluna única */
     .cards {
         grid-template-columns: 1fr;
         gap: 16px;
     }
- 
+
     /* Tabela com scroll horizontal */
     .table-container {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
         padding: 12px;
     }
- 
+
     .custom-table th,
     .custom-table td {
         padding: 10px 8px;
         font-size: 0.8rem;
         white-space: nowrap;
     }
- 
+
     /* Formulários: padding reduzido, largura total */
     .cadastro-wrapper {
         padding: 0;
     }
- 
+
     .cadastro-form {
         max-width: 100%;
         padding: 20px 16px;
         border-radius: 12px;
     }
- 
+
     /* Botões de ação ocupam largura total */
     #BtnCadastrar,
     #BtnAtualizar {
         padding: 12px;
         font-size: 0.9rem;
     }
- 
+
     /* Dialog ocupa quase toda a tela */
     dialog {
         width: 95vw;
@@ -487,7 +485,7 @@ dialog::backdrop {
         left: 50%;
         transform: translate(-50%, -50%);
     }
- 
+
     /* Botões de excluir/editar na tabela: empilhados */
     .btn-excluir,
     .btn-editar {
@@ -496,11 +494,10 @@ dialog::backdrop {
         margin: 2px 0;
         text-align: center;
     }
- 
+
     /* Botão de nova máquina / atualizar: largura total */
     .btn-novo {
         width: 100%;
         text-align: center;
     }
 }
- 

@@ -57,7 +57,7 @@ function carregarTela(nomeDaTela) {
                 document.querySelector('.file_70').closest('li').classList.add('active');
                 listarPedidos();
             }
-             else if (nomeDaTela === "dashboard_content") {
+            else if (nomeDaTela === "dashboard_content") {
                 document.querySelector('.file_80').closest('li').classList.add('active');
                 listarPedidosConcluidos();
             }
@@ -70,13 +70,13 @@ function carregarTela(nomeDaTela) {
 function atualizarHome() {
 
     let listaMaquinas = JSON.parse(localStorage.getItem('maquinas'));
-    document.getElementById('totalMaquinas').innerText = listaMaquinas.length ?? 0;
+    document.getElementById('totalMaquinas').innerText = listaMaquinas.length || 0;
 
     let listaPedidos = JSON.parse(localStorage.getItem('pedidos'));
-    document.getElementById('totalPedidos').innerText = listaPedidos.length ?? 0;
+    document.getElementById('totalPedidos').innerText = listaPedidos.length || 0;
 
     let concluidos = localStorage.getItem('Concluidos');
-    document.getElementById('totalConcluido').innerText = concluidos ?? 0;
+    document.getElementById('totalConcluido').innerText = concluidos || 0;
 }
 
 function AtualizarMaquinasPedidos() {
