@@ -70,16 +70,13 @@ function carregarTela(nomeDaTela) {
 function atualizarHome() {
 
     let listaMaquinas = JSON.parse(localStorage.getItem('maquinas'));
-    if(listaMaquinas)
-    document.getElementById('totalMaquinas').innerText = listaMaquinas.length;
+    document.getElementById('totalMaquinas').innerText = listaMaquinas ? listaMaquinas.length : "0";
     
     let listaPedidos = JSON.parse(localStorage.getItem('pedidos'));
-    if(listaPedidos)
-    document.getElementById('totalPedidos').innerText = listaPedidos.length;
+    document.getElementById('totalPedidos').innerText = listaPedidos ? listaPedidos.length : "0";
 
     let concluidos = localStorage.getItem('Concluidos');
-    if(concluidos > 0)
-    document.getElementById('totalConcluido').innerText = concluidos;
+    document.getElementById('totalConcluido').innerText = concluidos > 0 ? concluidos : "0 Pedidos";
 }
 
 function AtualizarMaquinasPedidos() {
