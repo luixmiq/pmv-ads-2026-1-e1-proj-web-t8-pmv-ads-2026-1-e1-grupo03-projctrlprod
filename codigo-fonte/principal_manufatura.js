@@ -49,13 +49,13 @@ function carregarTela(nomeDaTela) {
 function atualizarHome() {
 
     let listaMaquinas = JSON.parse(localStorage.getItem('maquinas'));
-    document.getElementById('totalMaquinas').innerText = listaMaquinas.length;
+    document.getElementById('totalMaquinas').innerText =  listaMaquinas ? listaMaquinas.length : "0";
 
     let listaPedidos = JSON.parse(localStorage.getItem('pedidos'));
-    document.getElementById('totalPedidos').innerText = listaPedidos.length;
+    document.getElementById('totalPedidos').innerText = listaPedidos ? listaPedidos.length : "0" ;
 
     let concluidos = localStorage.getItem('Concluidos');
-    document.getElementById('totalConcluido').innerText = concluidos || 0;
+    document.getElementById('totalConcluido').innerText = concluidos > 0 ? concluidos : "0 Pedidos";
 
     listarPedidos();
 }
@@ -92,6 +92,10 @@ function listarPedidos() {
     // 4. AGORA O FOREACH RODA NA LISTA JÁ ORDENADA (Apenas 1 bloco de HTML limpo)
     lista.forEach(pedidos => {
         const badge = classesBadge[pedidos.CatUrgencia] || 'badgeNormal';
+        const estaRodando = localStorage.getItem('EmProducaoId') == Number(pedidos.id) && localStorage.getItem('EmProducao') === 'Rodando';
+
+        const displayIniciar = estaRodando ? 'none' : 'inline-block';
+        const displayPausar  = estaRodando ? 'inline-block' : 'none';
 
         const linha = `
             <tr>
@@ -104,9 +108,9 @@ function listarPedidos() {
 
                 <td>${pedidos.CatMaq}</td>
                 <td>
-                    <button class="btn-iniciar" onclick="IniciarPedido(${pedidos.id})">▶</button>
-                    <button class="btn-pausar" onclick="PausarPedido(${pedidos.id})">❚❚</button>
-                    <button class="btn-finalizar" onclick="FinalizarPedido(${pedidos.id})">⏹</button>
+                    <button data-id="${pedidos.id}" style="display:${displayIniciar};" class="btn-iniciar" onclick="IniciarPedido(${pedidos.id})">▶</button>
+                    <button data-id="${pedidos.id}" style="display:${displayPausar};" class="btn-pausar" onclick="PausarPedido(${pedidos.id})">❚❚</button>
+                    <button data-id="${pedidos.id}" class="btn-finalizar" onclick="FinalizarPedido(${pedidos.id})">⏹</button>
                 </td>
 
                 <td>${pedidos.horaInicio || '--:--:--'}</td>
@@ -131,8 +135,9 @@ function IniciarPedido(id) {
             localStorage.setItem('EmProducao', 'Rodando');
             localStorage.setItem('EmProducaoId', id);
 
-            const horaAtual = new Date().toLocaleTimeString('pt-BR');
-            localStorage.setItem('HoraInicio', 'horaAtual');
+            const opcoes    = { hour: '2-digit', minute: '2-digit', second: '2-digit' };
+            const horaAtual = new Date().toLocaleTimeString('pt-BR', opcoes);
+            localStorage.setItem('HoraInicio', horaAtual);
 
             // 1. Busca a lista atualizada do localStorage
             let lista = JSON.parse(localStorage.getItem('pedidos')) || [];
@@ -145,6 +150,7 @@ function IniciarPedido(id) {
                 const horaAtual = new Date().toLocaleTimeString('pt-BR');
 
                 // 4. Salva a propriedade 'horaInicio' dentro do objeto deste pedido
+                if(!pedido.horaInicio)
                 pedido.horaInicio = horaAtual;
 
                 // 5. Atualiza o localStorage com o dado novo
@@ -156,7 +162,7 @@ function IniciarPedido(id) {
         }
     }
     else {
-        alert("Primeiro finalize a produção da peça anterior antes de iniciar uma nova.")
+        alert("Primeiro finalize ou pause a produção da peça anterior antes de iniciar uma nova.")
     }
 
 }
@@ -171,7 +177,7 @@ function PausarPedido(id) {
             localStorage.setItem('EmProducaoId', id);
 
             const horaAtual = new Date().toLocaleTimeString('pt-BR');
-            localStorage.setItem('HoraPausa', 'horaAtual');
+            localStorage.setItem('HoraPausa', horaAtual);
 
             // 1. Busca a lista atualizada do localStorage
             let lista = JSON.parse(localStorage.getItem('pedidos')) || [];
@@ -201,14 +207,21 @@ function PausarPedido(id) {
 
 function FinalizarPedido(id) {
     let EmProducao = localStorage.getItem('EmProducao');
+    let EmProducaoId = Number(localStorage.getItem('EmProducaoId'));
 
     if (EmProducao === 'Rodando') {
+
+        if(EmProducaoId !== id) {
+        alert("Você só pode finalizar uma peça que esteja em produção");
+        return;
+        }
+
         if (confirm("Tem certeza que deseja finalizar a produção")) {
             localStorage.setItem('EmProducao', 'Finalizado');
             localStorage.setItem('EmProducaoId', 0);
 
             const horaAtual = new Date().toLocaleTimeString('pt-BR');
-            localStorage.setItem('HoraFim', 'horaAtual');
+            localStorage.setItem('HoraFim', horaAtual);
 
             // 1. Busca a lista atualizada do localStorage
             let lista = JSON.parse(localStorage.getItem('pedidos')) || [];
@@ -303,6 +316,8 @@ function contarMinutos() {
         }
     }
 
+    const pad = n => String(n).padStart(2, '0');
+
     // 1. Busca a lista atualizada do localStorage
     let lista = JSON.parse(localStorage.getItem('pedidos')) || [];
 
@@ -312,7 +327,7 @@ function contarMinutos() {
     if (pedido) {
 
         // 3. Salva a propriedade 'minutosCorridos' dentro do objeto deste pedido
-        pedido.minutosCorridos = horas + ':' + minutos + ':' + segundos;
+        pedido.minutosCorridos = `${pad(horas)}:${pad(minutos)}:${pad(segundos)}`;
 
         // 4. Atualiza o localStorage com o dado novo
         localStorage.setItem('pedidos', JSON.stringify(lista));
